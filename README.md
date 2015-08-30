@@ -22,4 +22,3 @@ when many questions are asked in a problem, how do you verify student's solving 
 Problem 9: use algebraic method.
 
 Problem 17: The point is on the edge of circle TODO: rephrase it. 
-=====================================

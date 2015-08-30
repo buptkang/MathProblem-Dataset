@@ -1,4 +1,5 @@
-This is the dataset containing high school math word problems. 
+# MathProblemSolving-Dataset
+This is the dataset containing K-9 to K-12 algebra-and-geometry related math problems.
 
 Problem Data Format:
 
@@ -21,3 +22,4 @@ when many questions are asked in a problem, how do you verify student's solving 
 Problem 9: use algebraic method.
 
 Problem 17: The point is on the edge of circle TODO: rephrase it. 
+=====================================

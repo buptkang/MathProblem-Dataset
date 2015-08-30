@@ -1,0 +1,545 @@
+[
+    {
+        "id": 1,
+        "problem": "Find the distance betweeen A(2,0) and B(5,4)?",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "Find the",  "interaction": "None" },
+            { "id": 2, "tag": "distance",  "interaction": "Input", "input": "d=" },
+            { "id": 3, "tag": "between",   "interaction": "None" },
+            { "id": 4, "tag": "A(2,0)",    "interaction": "Input"},
+            { "id": 5, "tag": "and",       "interaction": "None" },
+            { "id": 6, "tag": "B(5,4)",    "interaction": "Input"},
+            { "id": 7, "tag": "?",         "interaction": "None" }
+        ],
+        "semanticTagging": [
+            { "id": 2, "dependencies": [ 4, 6 ] }
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 2,
+        "problem": "There exists two points A(3,4) and B(4,v), the distance between A and B is 5. What is the value of v?",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "There exists two points", "interaction": "None" },
+            { "id": 2, "tag": "A(3,4)",                  "interaction": "Input"},
+            { "id": 3, "tag": "and",                     "interaction": "None" },
+            { "id": 4, "tag": "B(4,v)",                  "interaction": "Input"},
+            { "id": 5, "tag": ", the",                   "interaction": "None" },
+            { "id": 6, "tag": "distance",                "interaction": "Concept", "concept": "Computing the distance between two points in the plane is an application of the Pythagorean Theorem for right triangles." },
+            { "id": 7, "tag": "between",                 "interaction": "None" },
+            { "id": 8, "tag": "A",                       "interaction": "None" },
+            { "id": 9, "tag": "and",                     "interaction": "None" },
+            { "id": 10, "tag": "B",                      "interaction": "None" },
+            { "id": 11, "tag": "is",                     "interaction": "None" },
+            { "id": 12, "tag": "5",                      "interaction": "Input", "input": "d=5"},
+            { "id": 13, "tag": ".",                      "interaction": "None" },
+            { "id": 14, "tag": "What is the value of",   "interaction": "None" },
+            { "id": 15, "tag": "v",                      "interaction": "Input", "input":  "v=" },
+            { "id": 16, "tag": "?",                      "interaction": "None" }
+        ],
+        "semantic": [
+            {
+                "question": "15",
+                "strategy": "TODO"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "problem": "A line passes through two points A(2,0), B(0,3) respectively. 1) What is the slope of this line?  2) What is the standard form of this line? ",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "A",                            "interaction": "None" },
+            { "id": 2, "tag": "line",                         "interaction": "None" },
+            { "id": 3, "tag": "passes through two points",    "interaction": "None" },
+            { "id": 4, "tag": "A(2,0)",                       "interaction": "Input"},
+            { "id": 5, "tag": ",",                            "interaction": "None" },
+            { "id": 6, "tag": "B(0,3)",                       "interaction": "Input"},
+            { "id": 7, "tag": "respectively. 1)",            "interaction": "None" },
+            { "id": 8, "tag": "What",                         "interaction": "Input" , "input": "m=" },
+            { "id": 9, "tag": "is the",                       "interaction": "None" },
+            { "id": 10, "tag": "slope",                       "interaction": "Concept", "concept": "Slope"},
+            { "id": 11, "tag": "of this line? 2)",           "interaction": "None" },
+            { "id": 12, "tag": "What",                        "interaction": "Input", "input": "lineG=" },
+            { "id": 12, "tag": "is the",                      "interaction": "None" }, 
+            { "id": 13, "tag": "standard form",               "interaction": "Concept", "concept": "Line Standard Form"},
+            { "id": 14, "tag": "of this line?",               "interaction": "None" }
+        ],
+        "semantic": [
+
+        ]
+    },
+    {
+        "id": 4,
+        "problem": "There is a line, the slope of it is 3, the intercept of it is 2. What is the slope intercept form of this line? What is the general form of this line?",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "There is a ",            "interaction": "None" },
+            { "id": 2, "tag": "line",                   "interaction": "Concept", "concept": "TODO"},
+            { "id": 3, "tag": ",",                      "interaction": "None" },
+            { "id": 4, "tag": "the",                    "interaction": "None" },
+            { "id": 5, "tag": "slope",                  "interaction": "Concept", "concept": "TODO" },
+            { "id": 6, "tag": "of it is",               "interaction": "None" },
+            { "id": 7, "tag": "3",                      "interaction": "Input",   "input": "m=3" },
+            { "id": 8, "tag": ",",                      "interaction": "None" },
+            { "id": 9, "tag": "the",                    "interaction": "None" },
+            { "id": 10, "tag": "intercept",             "interaction": "Concept", "concept": "TODO" },
+            { "id": 11, "tag": "of it is",              "interaction": "None" },
+            { "id": 12, "tag": "2",                     "interaction": "Input",   "input": "k=2" },
+            { "id": 13, "tag": ".",                     "interaction": "None" },
+            { "id": 14, "tag": " What is the",          "interaction": "None" },
+            { "id": 15, "tag": " slope intercept form", "interaction": "Input",   "input": "lineS=" },
+            { "id": 16, "tag": " of this line?",        "interaction": "None" },
+            { "id": 17, "tag": " What is the",          "interaction": "None" },
+            { "id": 18, "tag": " general form",         "interaction": "Input",   "input": "lineG=" },
+            { "id": 19, "tag": " of this line?",        "interaction": "None" } 
+        ],
+    },
+    {
+        "id": 5,
+        "problem": "Given an equation 2y+2x-y+2x+4=0, graph this equation's corresponding shape? If it is a line, what is the slope of this line?",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "Given an equation",                          "interaction": "None" },
+            { "id": 2, "tag": "2y+2x-y+2x+4=0",                             "interaction": "Input"},
+            { "id": 3, "tag": ",",                                          "interaction": "None" },
+            { "id": 4, "tag": "graph",                                      "interaction": "Input", "input": "graph="},
+            { "id": 5, "tag": "this equation's corresponding shape?",       "interaction": "None" },
+            { "id": 6, "tag": "If it is a line,",                           "interaction": "None" },
+            { "id": 7, "tag": "what",                                       "interaction": "Input", "input": "m="},
+            { "id": 8, "tag": "is the",                                     "interaction": "None" }, 
+            { "id": 9, "tag": "slope",                                      "interaction": "Concept", "concept": "Slope" },
+            { "id": 10, "tag": "of this line?",                             "interaction": "None" }
+        ],
+    },
+    {
+        "id": 6,
+        "problem": "Determine the general form of this line: The line through (-2,0) with slope -2.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "Determine the",    "interaction": "None"},
+            { "id": 2, "tag": "general form",     "interaction": "Input", "input": "lineG" },
+            { "id": 3, "tag": "of this line:",    "interaction": "None" },
+            { "id": 4, "tag": "The line through", "interaction": "None" },
+            { "id": 5, "tag": "(-2,0)",           "interaction": "Input"},
+            { "id": 6, "tag": "with",             "interaction": "None" },
+            { "id": 7, "tag": "slope",            "interaction": "Concept", "concept": "TODO"},
+            { "id": 8, "tag": "-2",               "interaction": "Input", "input": "m=-2"},
+            { "id": 9, "tag": ".",                "interaction": "None" }
+        ],
+        "semantic": [
+
+        ]
+    },    
+    {
+        "id": 7,
+        "problem": "The points (3,v) and (2,0) fall on a line with a slope of 10. What is the value of v?",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "The points", "interaction": "None" },
+            { "id": 2, "tag": "(3,v)", "interaction": "Input" },
+            { "id": 3, "tag": "and", "interaction": "None" },
+            { "id": 4, "tag": "(2,0)", "interaction": "Input" },
+            { "id": 5, "tag": "fall on a", "interaction": "None" },
+            { "id": 6, "tag": "line", "interaction": "Concept", "concept": "TODO" },
+            { "id": 7, "tag": "with a", "interaction": "None" },
+            { "id": 8, "tag": "slope", "interaction": "Concept", "concept": "TODO" },
+            { "id": 9, "tag": "of", "interaction": "None" },
+            { "id": 10, "tag": "10", "interaction": "Input", "input": "m=10" },
+            { "id": 11, "tag": ".", "interaction": "None" },
+            { "id": 12, "tag": "What is the value of", "interaction": "None" },
+            { "id": 13, "tag": "v", "interaction": "Input", "input": "v=" },
+            { "id": 14, "tag": "?", "interaction": "None" }
+        ],
+        "semantic": [
+
+        ]
+    },
+    {
+        "id": 8,
+        "problem": "How do you solve for linear equations with this problem: 4x+3y=5,-3x-6y=0 ?",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1,  "tag": "How do you solve for",        "interaction": "None" },
+            { "id": 2,  "tag": "linear equations",            "interaction": "Concept" , "concept": "TODO"},
+            { "id": 3,  "tag": "with this problem:",          "interaction": "None" },
+            { "id": 4,  "tag": "4x+3y=5",                     "interaction": "Input"},
+            { "id": 5,  "tag": ",",                           "interaction": "None" },
+            { "id": 6,  "tag": "-3x-6y=0",                    "interaction": "Input"},
+            { "id": 7,  "tag": "?",                           "interaction": "None" }
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 9,
+        "problem": "Show that the line AB defined by y = 2x + 3 is perpendicular to the line CD, defined by 2y + x – 2 = 0.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1,  "tag": "Show that the",   "interaction": "None" },
+            { "id": 2,  "tag": "line",            "interaction": "Concept", "concept": "TODO"},
+            { "id": 3,  "tag": "AB",              "interaction": "None" },
+            { "id": 4,  "tag": "defined by",      "interaction": "None" },
+            { "id": 5,  "tag": "y=2x+3",          "interaction": "Input"},
+            { "id": 6,  "tag": "is",              "interaction": "None" },
+            { "id": 7,  "tag": "perpendicular",   "interaction": "Concept", "concept": "TODO"},
+            { "id": 8,  "tag": "to the line CD",  "interaction": "None" },
+            { "id": 9,  "tag": ", defined by",    "interaction": "None" },
+            { "id": 10, "tag": "2y+x-2=0",        "interaction": "Input"},
+            { "id": 11, "tag": ".",               "interaction": "None" },
+            
+        ],
+        "semantic": [
+        ]
+    },
+    { 
+        "id": 10,
+        "problem": "Find the equation of the line that contains the point (0,5) and is perpendicular to the line y= 1/4x",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "Find the",               "interaction": "None" },
+            { "id": 2, "tag": "equation  ",             "interaction": "Input", "input": "lineG" },
+            { "id": 3, "tag": "of the",                 "interaction": "None" },
+            { "id": 4, "tag": "line",                   "interaction": "Concept", "concept": "TODO"},
+            { "id": 5, "tag": "that contains the point","interaction": "None" },
+            { "id": 6, "tag": "(0,5)",                  "interaction": "Input"},
+            { "id": 7, "tag": "and is",                 "interaction": "None" },
+            { "id": 8, "tag": "perpendicular",          "interaction": "Concept", "concept": "m=-2"},
+            { "id": 9, "tag": "to the",                 "interaction": "None" },
+            { "id": 9, "tag": "line",                   "interaction": "Concept", "concept": "TODO"},
+            { "id": 9, "tag": "y= 1/4x",                "interaction": "Input"}
+        ],
+        "semantic": [
+
+        ]
+    },
+    {
+        "id": 11,
+        "problem": "Find the equation of the line parallel to y=5x-2 and passing through the origin.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1,  "tag": "Find the",               "interaction": "None" },
+            { "id": 2,  "tag": "equation",               "interaction": "Input",   "input": "lineG="},
+            { "id": 3,  "tag": "of the",                 "interaction": "None" },
+            { "id": 4,  "tag": "line",                   "interaction": "Concept", "concept": "TODO"},
+            { "id": 5,  "tag": "parallel",               "interaction": "Concept", "concept": "TODO"},
+            { "id": 6,  "tag": "to",                     "interaction": "None" },
+            { "id": 7,  "tag": "y=5x-2",                 "interaction": "Input"},
+            { "id": 8,  "tag": "and passing through the","interaction": "None" },
+            { "id": 9,  "tag": "origin",                 "interaction": "Input",   "input": "(0,0)" },
+            { "id": 10, "tag": ".",                      "interaction": "None" }
+        ],
+        "semantic": [
+        ]
+    }, 
+    {
+        "id": 12,
+        "problem": "Given A(2,3) and B(5,8), write an equation of a line parallel to AB containing the point P(-2,-4).",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1,  "tag": "Given",                      "interaction": "None" },
+            { "id": 2,  "tag": "A(2,3)",                     "interaction": "Input"},
+            { "id": 3,  "tag": "and",                        "interaction": "None" },
+            { "id": 4,  "tag": "B(5,8)",                     "interaction": "Input"},
+            { "id": 5,  "tag": ", write an",                 "interaction": "None" },
+            { "id": 6,  "tag": "equation",                   "interaction": "Input", "input": "lineG="},
+            { "id": 7,  "tag": "of a",                       "interaction": "None"},
+            { "id": 8,  "tag": "line",                       "interaction": "Concept", "concept" : "TODO"},
+            { "id": 9,  "tag": "parallel",                   "interaction": "Concept", "concept" : "TODO"},
+            { "id": 10, "tag": "to AB containing the point", "interaction": "None" },
+            { "id": 11, "tag": "P(-2,-4)",                   "interaction": "Input"},
+            { "id": 12, "tag": ".",                          "interaction": "None" }
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 13,
+        "problem": "Assume a circle C’s central point is CP(-1,-1), and its radius is 3. There is a line L of which the standard form is x-y-1=0. Find the distance between the center of circle CP and line L?",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1,  "tag": "Assume a",            "interaction": "None" },
+            { "id": 2,  "tag": "circle C",            "interaction": "Concept", "concept": "TODO"},
+            { "id": 3,  "tag": "'s",                  "interaction": "None" },
+            { "id": 4,  "tag": "central point",       "interaction": "Concept", "concept": "TODO"},
+            { "id": 5,  "tag": "is",                  "interaction": "None" },
+            { "id": 6,  "tag": "CP(-1,-1)",           "interaction": "Input"},
+            { "id": 7,  "tag": ", and its",           "interaction": "None" },
+            { "id": 8,  "tag": "radius",              "interaction": "Concept", "concept": "TODO"},
+            { "id": 9,  "tag": "is",                  "interaction": "None" },
+            { "id": 10, "tag": "3",                   "interaction": "Input",   "input": "r=3"},
+            { "id": 11, "tag": ".",                   "interaction": "None" },
+            { "id": 12, "tag": "There is a",          "interaction": "None" },
+            { "id": 13, "tag": "line",                "interaction": "Concept", "concept": "TODO"},
+            { "id": 14, "tag": "L of which the",      "interaction": "None" },
+            { "id": 15, "tag": "standard form",       "interaction": "Concept", "concept": "TODO"},
+            { "id": 16, "tag": "is",                  "interaction": "None" },
+            { "id": 17, "tag": "x-y-1=0",             "interaction": "Input"},
+            { "id": 18, "tag": ".",                   "interaction": "None" },
+            { "id": 19, "tag": "Find the",            "interaction": "None" },
+            { "id": 20, "tag": "distance",            "interaction": "Input", "input" : "d="},
+            { "id": 21, "tag": "between the",         "interaction": "None" },
+            { "id": 22, "tag": "center of circle CP", "interaction": "None" },
+            { "id": 23, "tag": "and",                 "interaction": "None" },
+            { "id": 24, "tag": "line L",              "interaction": "None" },
+            { "id": 25, "tag": "?",                   "interaction": "None" } 
+        ],
+        "semantic": [
+
+        ]
+    },
+    {
+        "id": 14,
+        "problem": "The equation of a circle C is x^2+y^2-12x-2y+36=0. What is its center (h,k) and its radius r?",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1,  "tag": "The equation of a",        "interaction": "None" },
+            { "id": 2,  "tag": "circle",                   "interaction": "Concept" , "concept": "TODO"},
+            { "id": 3,  "tag": "C is",                     "interaction": "None" },
+            { "id": 4,  "tag": "x^2+y^2-12x-2y+36=0",      "interaction": "Input"},
+            { "id": 5,  "tag": ".",                        "interaction": "None" },
+            { "id": 6,  "tag": "What is its center",       "interaction": "None" },
+            { "id": 7,  "tag": "(h,k)",                    "interaction": "Input"},
+            { "id": 8,  "tag": "and its",                  "interaction": "None" },
+            { "id": 9,  "tag": "radius",                   "interaction": "Concept", "concept": "TODO"},
+            { "id": 10, "tag": "r",                        "interaction": "Input", "input": "r=" },
+            { "id": 11, "tag": "?",                        "interaction": "None" }
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 15,
+        "problem": "The point (1,4) is on a circle whose center is at (-2,-3). Write the standard form of the equation of the circle.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1,  "tag": "The point",                      "interaction": "None" },
+            { "id": 2,  "tag": "(1,4)",                          "interaction": "Input"},
+            { "id": 3,  "tag": "is on a",                        "interaction": "None" },
+            { "id": 4,  "tag": "circle",                         "interaction": "Concept", "concept": "TODO"},
+            { "id": 5,  "tag": "whose center is at",             "interaction": "None" },
+            { "id": 6,  "tag": "(-2,-3)",                        "interaction": "Input"},
+            { "id": 7,  "tag": ".",                              "interaction": "None" },
+            { "id": 8,  "tag": "Write the",                      "interaction": "None" },
+            { "id": 9,  "tag": "standard form",                  "interaction": "Concept", "concept": "TODO"},
+            { "id": 10, "tag": "of the equation of the circle.", "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 16,
+        "problem": "Find the midpoint of the line joining A(-2,2) and B(4,6).",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1,  "tag": "Find the",            "interaction": "None" },
+            { "id": 2,  "tag": "midpoint",            "interaction": "Concept", "concept": "TODO"},
+            { "id": 3,  "tag": "of the",              "interaction": "None" },
+            { "id": 4,  "tag": "line",                "interaction": "Concept", "concept": "TODO"},
+            { "id": 5,  "tag": "joining",             "interaction": "None" },
+            { "id": 6,  "tag": "A(-2,2)",             "interaction": "Input"},
+            { "id": 7,  "tag": "and",                 "interaction": "None" },
+            { "id": 8,  "tag": "B(4,6)",              "interaction": "Input"},
+            { "id": 9,  "tag": ".",                   "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 17,
+        "problem": "Circle C has a center of (-2, 3) and a radius of 4. Does point (-4, 6) lie on circle C?",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1,  "tag": "Circle",  "interaction": "Concept", "concept": "TODO"},
+            { "id": 2,  "tag": "C",       "interaction": "Input",   "input": "circleG" },
+            { "id": 3,  "tag": "has",     "interaction": "None" },
+            { "id": 4,  "tag": "a",       "interaction": "None" },
+            { "id": 5,  "tag": "center",  "interaction": "Concept", "concept": "TODO"},
+            { "id": 6,  "tag": "of",      "interaction": "None" },
+            { "id": 7,  "tag": "(-2, 3)", "interaction": "Input"},
+            { "id": 8,  "tag": "and a",   "interaction": "None" },
+            { "id": 9,  "tag": "radius",  "interaction": "Concept", "concept": "TODO"},
+            { "id": 10, "tag": "of",      "interaction": "None" },
+            { "id": 11, "tag": "4",       "interaction": "Input", "input": "r=4" },
+            { "id": 12, "tag": ".",       "interaction": "None" },
+            { "id": 13, "tag": "Does",    "interaction": "None" },
+            { "id": 14, "tag": "point",   "interaction": "None" },
+            { "id": 15, "tag": "(-4, 6)", "interaction": "Input"},
+            { "id": 16, "tag": "lie on",  "interaction": "None" },
+            { "id": 17, "tag": "circle C","interaction": "None" },
+            { "id": 18, "tag": "?",       "interaction": "None" }
+        ],
+        "semantic": [
+
+        ]
+    },
+    {
+        "id": 18,
+        "problem": "P(–2; 1) Q(2; 5) and R(4; –3) are the vertices of shape PQR. M is the midpoint of QR. Determine the equation of line PM.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1,  "tag": "Show that the",   "interaction": "None" },
+            { "id": 2,  "tag": "line",            "interaction": "Concept", "concept": "TODO"},
+            { "id": 3,  "tag": "AB",              "interaction": "None" },
+            { "id": 4,  "tag": "defined by",      "interaction": "None" },
+            { "id": 5,  "tag": "y=2x+3",          "interaction": "Input"},
+            { "id": 6,  "tag": "is",              "interaction": "None" },
+            { "id": 7,  "tag": "perpendicular",   "interaction": "Concept", "concept": "TODO"},
+            { "id": 8,  "tag": "to the line CD",  "interaction": "None" },
+            { "id": 9,  "tag": ", defined by",    "interaction": "None" },
+            { "id": 10, "tag": "2y+x-2=0",        "interaction": "Input"},
+            { "id": 11, "tag": ".",               "interaction": "None" },            
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 19,
+        "problem": "What is the center and radius of the circle given by 8x^2 + 8y^2 – 16x – 32y + 24 = 0?",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1,  "tag": "What is the",                       "interaction": "None" },
+            { "id": 2,  "tag": "center",                            "interaction": "Concept", "concept": "TODO"},
+            { "id": 3,  "tag": "and",                               "interaction": "None" },
+            { "id": 4,  "tag": "radius",                            "interaction": "Concept", "concept": "TODO"},
+            { "id": 5,  "tag": "of the",                            "interaction": "None" },
+            { "id": 6,  "tag": "circle",                            "interaction": "Concept", "concept": "TODO"},
+            { "id": 7,  "tag": "given by",                          "interaction": "None" },
+            { "id": 8,  "tag": "8x^2+8y^2-16x-32y+24=0",            "interaction": "Input"},
+            { "id": 9,  "tag": "?",                                 "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 20,
+        "problem": "Circle C has a center of (–2,3) and a radius of 4. Does point (–4,6) lie on circle C?",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1,  "tag": "Circle",     "interaction": "Concept", "concept": "TODO"},
+            { "id": 2,  "tag": "C",          "interaction": "Concept", "concept": "TODO"},
+            { "id": 3,  "tag": "has a ",     "interaction": "None" },
+            { "id": 4,  "tag": "center",     "interaction": "Concept", "concept": "TODO"},
+            { "id": 5,  "tag": "of",         "interaction": "None" },
+            { "id": 6,  "tag": "(-2,3)",     "interaction": "Input",   "concept": "TODO"},
+            { "id": 7,  "tag": "and a",      "interaction": "None" },
+            { "id": 8,  "tag": "radius",     "interaction": "Concept", "concept": "TODO"},
+            { "id": 9,  "tag": "of",         "interaction": "None" },
+            { "id": 10, "tag": "4",          "interaction": "Input" , "input": "r=4"},
+            { "id": 11, "tag": ".",          "interaction": "None" },
+            { "id": 12, "tag": "Does",       "interaction": "None" },
+            { "id": 13, "tag": "point",      "interaction": "None" },
+            { "id": 14, "tag": "(-4,6)",     "interaction": "Input"},
+            { "id": 15, "tag": "lie on",     "interaction": "None" },
+            { "id": 16, "tag": "circle C",   "interaction": "None" },
+            { "id": 17, "tag": "?",          "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 21,
+        "problem": "A circle is centered at the origin and has a radius of 2 units. A line with a slope of 2 passes through the origin and intersects the circle in two places. Where does the line intersect the circle?",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1,  "tag": "A",                         "interaction": "None" },
+            { "id": 2,  "tag": "circle",                    "interaction": "Concept", "concept": "TODO"},
+            { "id": 3,  "tag": "is",                        "interaction": "None" },
+            { "id": 4,  "tag": "centered",                  "interaction": "Concept", "concept": "TODO"},
+            { "id": 5,  "tag": "at the",                    "interaction": "None" },
+            { "id": 6,  "tag": "origin",                    "interaction": "Input",   "concept": "(0,0)"},
+            { "id": 7,  "tag": "and has a",                 "interaction": "None" },
+            { "id": 8,  "tag": "radius",                    "interaction": "Concept", "concept": "TODO"},
+            { "id": 9,  "tag": "of",                        "interaction": "None" },
+            { "id": 10, "tag": "2",                         "interaction": "Input" , "input": "r=4"},
+            { "id": 11, "tag": "units",                     "interaction": "None" },
+            { "id": 12, "tag": ".",                         "interaction": "None" },
+            { "id": 13, "tag": "A",                         "interaction": "None" },
+            { "id": 14, "tag": "line",                      "interaction": "Concept", "concept": "TODO"},
+            { "id": 15, "tag": "with a",                    "interaction": "None" },
+            { "id": 16, "tag": "slope",                     "interaction": "Concept", "concept": "TODO"},
+            { "id": 17, "tag": "of",                        "interaction": "None" },
+            { "id": 18, "tag": "2",                         "interaction": "Input", "input": "m=2"},
+            { "id": 19, "tag": "passes through the",        "interaction": "None" },
+            { "id": 20, "tag": "origin",                    "interaction": "Input", "input": "(0,0)"},
+            { "id": 21, "tag": "and",                       "interaction": "None" },
+            { "id": 22, "tag": "intersect",                 "interaction": "None" },
+            { "id": 23, "tag": "the circle in two places.", "interaction": "None" },
+            { "id": 24, "tag": "Where does the line intersect the circle?", "interaction": "None"},
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 22,
+        "problem": "Assume a circle C's central point is CP(-1,-1), and its radius is 3. There is a line L of which the standard form is x-y-1=0. 1) What is the relation between C and L? 2) If they intersect at two points, what are the value of two intersect points coordinates? 3) Find the distance between the center of circle CP and line L?",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1,  "tag": "Assume a circle C's central point is CP(-1,-1), and its radius is 3.",                          "interaction": "None" },
+            { "id": 2,  "tag": "There is a line L of which the standard form is x-y-1=0.",                                      "interaction": "None" },
+            { "id": 3,  "tag": "1) What is the relation between C and L?",                                                      "interaction": "None" },
+            { "id": 4,  "tag": "2) If they intersect at two points, what are the value of two intersect points coordinates?",   "interaction": "None" },
+            { "id": 5,  "tag": "3) Find the distance between the center of circle CP and line L?",                              "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 23,
+        "problem": "Two cities are marked on coordinate grid as A (-4, 5)  and B ( 5, -8). Find the distance between the two cities A and B in coordinate units. If the city C is Determine the distance between them, Find the midpoint, slope and equation of a line segment, determine if lines are parallel or perpendicular located exactly halfway between A and B, find the coordinates representing the city C on the grid.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1,  "tag": "Two cities are marked on coordinate grid as A (-4, 5)  and B ( 5, -8). Find the distance between the two cities A and B in coordinate units. If the city C is Determine the distance between them, ",                          "interaction": "None" },
+            { "id": 2,  "tag": "Find the midpoint, slope and equation of a line segment, determine if lines are parallel or perpendicular located exactly halfway between A and B, find the coordinates representing the city C on the grid.",     "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 24,
+        "problem": "Find the equation of the perpendicular bisector of AB if A(–6; –2) and B(3; 1).",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1,  "tag": "Two cities are marked on coordinate grid as A (-4, 5)  and B ( 5, -8). Find the distance between the two cities A and B in coordinate units. If the city C is Determine the distance between them, ",                          "interaction": "None" },
+            { "id": 2,  "tag": "Find the midpoint, slope and equation of a line segment, determine if lines are parallel or perpendicular located exactly halfway between A and B, find the coordinates representing the city C on the grid.",     "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },   
+    {
+        "id": 25,
+        "problem": "P(–2; 1) Q(2; 5) and R(4; –3) are the vertices of shape PQR. M is the midpoint of QR. Determine the equation of line PM.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1,  "tag": "Two cities are marked on coordinate grid as A (-4, 5)  and B ( 5, -8). Find the distance between the two cities A and B in coordinate units. If the city C is Determine the distance between them, ",                          "interaction": "None" },
+            { "id": 2,  "tag": "Find the midpoint, slope and equation of a line segment, determine if lines are parallel or perpendicular located exactly halfway between A and B, find the coordinates representing the city C on the grid.",     "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },   
+    {
+        "id": 26,
+        "problem": "Calculate the angle which the line passing through (–2; –2) and (3; 4) makes with the positive x axis.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1,  "tag": "Two cities are marked on coordinate grid as A (-4, 5)  and B ( 5, -8). Find the distance between the two cities A and B in coordinate units. If the city C is Determine the distance between them, ",                          "interaction": "None" },
+            { "id": 2,  "tag": "Find the midpoint, slope and equation of a line segment, determine if lines are parallel or perpendicular located exactly halfway between A and B, find the coordinates representing the city C on the grid.",     "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },       
+    {
+        "id": 27,
+        "problem": "Given the system of equations: x^2 + y^2 = 25 and y = 3x, a. Sketch a graph of the system to determine the number of solutions b. solve the system algebraically to find the solutions.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1,  "tag": "Two cities are marked on coordinate grid as A (-4, 5)  and B ( 5, -8). Find the distance between the two cities A and B in coordinate units. If the city C is Determine the distance between them, ",                          "interaction": "None" },
+            { "id": 2,  "tag": "Find the midpoint, slope and equation of a line segment, determine if lines are parallel or perpendicular located exactly halfway between A and B, find the coordinates representing the city C on the grid.",     "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    }, 
+]

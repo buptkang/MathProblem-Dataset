@@ -1,0 +1,77 @@
+Problem Analysis:
+
+1.Find the distance betweeen A(2,0) and B(5,4)?
+What: distance concept.
+How:  Forward construction.
+
+2.There exists two points A(3,4) and B(4,v), the distance between A and B is 5. What is the value of v?
+What: distance concept.
+How: Backward solving.
+
+3.A line passes through two points A(2,0), B(0,3) respectively. 1) What is the slope of this line?  2) What is the standard form of this line?
+What: line concept, slope property of line, line standard form concept.
+How: Forward construction.
+
+4.There is a line, the slope of it is 3, the intercept of it is 2. What is the slope intercept form of this line? What is the general form of this line?
+What: line concept, slope property of line, intercept property of line, line standard form concept.
+How: Forward construction.
+
+5. Given an equation 2y+2x-y+2x+4=0, graph this equation's corresponding shape? What is the slope of this line?
+What: line concept, slope property of line.
+How: Pattern Match.
+
+============================================================================
+
+6. Determine the general form of this line: The line through (-2,0) with slope -2.
+
+7. The points (3,v) and (2,0) fall on a line with a slope of 10. What is the value of v?
+What: line concept, slope property of line.
+How: Backward solving.
+
+8. How do you solve for linear equations with this problem: 4x+3y=5,-3x-6y=0 ?
+What: linear equation. 
+How:
+
+==============================================================================
+
+9. Show that the line AB defined by y = 2x + 3 is perpendicular to the line CD, defined by 2y + x – 2 = 0.
+What: line concept, perpendicular line relation concept.
+How: Verification.
+
+10. Find the equation of the line that contains the point (0,5) and is perpendicular to the line y= 1/4x
+
+11. Find the equation of the line parallel to y=5x-2 and passing through the origin.
+
+12. Given A(2,3) and B(5,8), write an equation of a line parallel to AB containing the point P(-2,-4).
+
+=====================================
+
+13. Assume a circle C’s central point is CP(-1,-1), and its radius is 3. There is a line L of which the standard form is x-y-1=0. Find the distance between the center of circle CP and line L?
+
+14. The equation of a circle C is x^2+y^2-12x-2y+36=0. What is its center (h,k) and its radius r?
+
+15. The point (1,4) is on a circle whose center is at (-2,-3). Write the standard form of the equation of the circle.
+
+16. Find the midpoint of the line joining A(-2,2) and B(4,6).
+
+17. Circle C has a center of (-2, 3) and a radius of 4. Does point (-4, 6) lie on circle C?
+
+18. P(–2; 1) Q(2; 5) and R(4; –3) are the vertices of shape PQR. M is the midpoint of QR. Determine the equation of line PM.
+
+19. What is the center and radius of the circle given by 8x^2 + 8y^2 – 16x – 32y + 24 = 0?
+
+20. Circle C has a center of (–2,3) and a radius of 4. Does point (–4,6) lie on circle C?
+
+21. A circle is centered at the origin and has a radius of 2 units. A line with a slope of 2 passes through the origin and intersects the circle in two places. Where does the line intersect the circle?
+
+22. Assume a circle C's central point is CP(-1,-1), and its radius is 3. There is a line L of which the standard form is x-y-1=0. 1) What is the relation between C and L? 2) If they intersect at two points, what are the value of two intersect points coordinates? 3) Find the distance between the center of circle CP and line L?
+
+23. Two cities are marked on coordinate grid as A (-4, 5)  and B ( 5, -8). Find the distance between the two cities A and B in coordinate units. If the city C is Determine the distance between them, Find the midpoint, slope and equation of a line segment, determine if lines are parallel or perpendicular located exactly halfway between A and B, find the coordinates representing the city C on the grid.
+
+24. Find the equation of the perpendicular bisector of AB if A(–6; –2) and B(3; 1).
+
+25. P(–2; 1) Q(2; 5) and R(4; –3) are the vertices of shape PQR. M is the midpoint of QR. Determine the equation of line PM.
+
+26. Calculate the angle which the line passing through (–2; –2) and (3; 4) makes with the positive x axis.
+
+27. Given the system of equations: x^2 + y^2 = 25 and y = 3x, a. Sketch a graph of the system to determine the number of solutions b. solve the system algebraically to find the solutions.

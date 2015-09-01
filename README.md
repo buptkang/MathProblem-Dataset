@@ -15,6 +15,8 @@ Problem Data Format:
 
 TODO
 
+clean the problems.
+
 Problem 7: not common
 
 when many questions are asked in a problem, how do you verify student's solving progress?

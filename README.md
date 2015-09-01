@@ -17,7 +17,7 @@ TODO
 
 clean the problems.
 
-Try to familiar with command 
+
 
 Problem 7: not common
 

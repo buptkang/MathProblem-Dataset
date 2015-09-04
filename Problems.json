@@ -4,19 +4,20 @@
         "problem": "Find the distance betweeen A(2,0) and B(5,4)?",
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
-            { "id": 1, "tag": "Find",      "interaction": "Input",   "input": "d="},
-            { "id": 2, "tag": "the",       "interaction": "None" },
-            { "id": 3, "tag": "distance",  "interaction": "Concept", "concept": "Distance"},
-            { "id": 4, "tag": "between",   "interaction": "None" },
-            { "id": 5, "tag": "A(2,0)",    "interaction": "Input"},
-            { "id": 6, "tag": "and",       "interaction": "None" },
-            { "id": 7, "tag": "B(5,4)",    "interaction": "Input"},
-            { "id": 8, "tag": "?",         "interaction": "None" }
+            { "id": 1, "tag": "Find", "interaction": "Input", "input": "d=" },
+            { "id": 2, "tag": "the", "interaction": "None" },
+            { "id": 3, "tag": "distance", "interaction": "Concept", "concept": "Distance" },
+            { "id": 4, "tag": "between", "interaction": "None" },
+            { "id": 5, "tag": "A(2,0)", "interaction": "Input" },
+            { "id": 6, "tag": "and", "interaction": "None" },
+            { "id": 7, "tag": "B(5,4)", "interaction": "Input" },
+            { "id": 8, "tag": "?", "interaction": "None" }
         ],
         "semanticTagging": [
             { "id": 2, "dependencies": [ 4, 6 ] }
         ],
         "semantic": [
+
         ]
     },
     {
@@ -533,14 +534,25 @@
         ],
         "semantic": [
         ]
-    },       
+    },
     {
         "id": 27,
         "problem": "Given the system of equations: x^2 + y^2 = 25 and y = 3x, a. Sketch a graph of the system to determine the number of solutions b. solve the system algebraically to find the solutions.",
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
-            { "id": 1,  "tag": "Two cities are marked on coordinate grid as A (-4, 5)  and B ( 5, -8). Find the distance between the two cities A and B in coordinate units. If the city C is Determine the distance between them, ",                          "interaction": "None" },
-            { "id": 2,  "tag": "Find the midpoint, slope and equation of a line segment, determine if lines are parallel or perpendicular located exactly halfway between A and B, find the coordinates representing the city C on the grid.",     "interaction": "None" },
+            { "id": 1, "tag": "Two cities are marked on coordinate grid as A (-4, 5)  and B ( 5, -8). Find the distance between the two cities A and B in coordinate units. If the city C is Determine the distance between them, ", "interaction": "None" },
+            { "id": 2, "tag": "Find the midpoint, slope and equation of a line segment, determine if lines are parallel or perpendicular located exactly halfway between A and B, find the coordinates representing the city C on the grid.", "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    }, 
+    {
+        "id": 99,
+        "problem": "Simplify the expression 1+1.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1,  "tag": "Simplify",               "interaction": "Input", "input": "1+1="},
+            { "id": 2,  "tag": "the expression 1+1.",     "interaction": "None" },
         ],
         "semantic": [
         ]

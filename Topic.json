@@ -1,0 +1,11 @@
+[
+  "line reflection": ["line"]
+
+  "line" : ["point", "line equation"]
+
+  "line equation" : ["line standard form", "line point slope form", "line slope intercept form"]
+
+  "point": ["x-coordinate", "y-coordinate"]
+
+  "distance": ["point"]
+]

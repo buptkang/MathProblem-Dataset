@@ -153,8 +153,10 @@ B. 3/2
 C. 0
 D. -2/3
 E. -6
-6. If the equation of a line p in the coordinate plane is y = 3x + 2, what is the equation of line q which is a reflection of line p in the x-axis?
-A. y = -3x + 2
+
+
+
+A.
 B. y = -3x - 2
 C. y = 3x - 2
 D. y = -1/3x - 5
@@ -1291,4 +1293,112 @@ Polar coordinate 1. a point in polar coordinate is given, find the corresponding
         "semantic": [
         ]
     },
+
+Addition:
+
+Plus, Added to, Sum of, Increased by, more than, gain, total of
+
+Subtraction:
+
+Minus, Diff of, Subtract from, Decreased by, loss, less than
+
+Multiplication:
+
+Times, Product of, Multiplied by
+
+Division:
+
+Over, Quotient of, ratio of, fraction of, divided by
+
+How do you turn a shorter verbal phrase into an algebraic expression?
+
+1. Phrases using a + sign:
+
+A number plus 5 -> n+5
+
+5 more than a number -> 5+n
+
+The sum of 5 and a number -> 5+n
+
+The total of 5 and a number -> 5+n
+
+2. Phrases using a – sign:
+
+A number minus 5  -> n – 5
+
+5 less than a number -> n – 5
+
+The difference between 5 and a number -> 5-n
+
+The difference between a number and 5 -> n-5
+
+3. Phrases using a multiple sign:
+
+A number times 5     -> n*5
+
+5 multiplied by a number   -> 5*n
+
+The product of 5 and a number -> 5*n
+
+4. Phrases using a divide sign:
+
+A number divided by 5       -> n/5
+
+5 over a number            -> 5/n
+
+The quotient of 5 and a number -> 5/n
+
+The ratio of a number and 5     -> n/5
+
+How do you turn a longer verbal phrase into an algebraic expression?
+
+1. Break it up
+
+ Two times the sum of a and two b: 2*(a+2b)
+
+ Plus half of b squared: +(1/2)*b^2
+
+ Plus twice the sum of a and three b: +2*(a+3b)
+
+ Equals m: =m
+
+2. Translate
+
+3. Combine: 2*(a+2b)+(1/2)b^2+2*(a+3b)=m
+
+In the xy-plane, the graph of the equation y =3x+5 is a line that intersects the y-axis
+
+at (0,b), what is the value of b?
+
+The scatterplot above gives the altitude and temperature of 8 locations at a given
+
+time. If a is the altitude, in kilometers, and t is the temperature in degrees Celsius,
+
+which of the following linear equations best models temperature as a function of
+
+altitude for this data?
+
+In the xy-plane, line l contains the point(0,0), and the slope of line l is 1. Line m
+
+contains the point (0,10), and l is perpendicular to m. If l and m intersect at the point
+
+(x,y), what is the value of y?
+
+Only Geometry side:
+
+https://www.khanacademy.org/test-prep/sat/sat-math-practice/sat-math-level-
+
+4/v/sat-2009-may-3-17
+
+Two sides of working:
+
+https://www.khanacademy.org/test-prep/sat/sat-math-practice/sat-math-level-5/v/sat-2008-may-8-16
+
+https://www.khanacademy.org/test-prep/new-sat/new-sat-math/new-sat-heart-of-algebra/v/sat-math-h9-easier
+
+https://www.khanacademy.org/test-prep/new-sat/new-sat-math/new-sat-heart-of-algebra/v/sat-math-h9-harder
+
+https://www.khanacademy.org/test-prep/new-sat/new-sat-math/new-sat-heart-of-algebra/v/sat-math-h3-easier
+
+https://www.khanacademy.org/test-prep/new-sat/new-sat-math/new-sat-heart-of-algebra/v/sat-math-h3-harder
 

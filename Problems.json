@@ -9,21 +9,24 @@
     {
         "id": 0001,
         "problem":  "Find the distance between A(2,0) and B(5,4)?",
-        "concept":  ["distance"],
+        "concept":  ["distance", "point"],
+        "topic":    ["distance"]
         "category": ["Geometry"],
         "solution": [5]
     },
     {
         "id": 0002,
         "problem":  "There exists two points A(3,4) and B(7,v), the distance between A and B is 5. What is the value of v?",
-        "concept":  ["distance"],
+        "concept":  ["distance", "point"],
+        "topic"   : ["y-coordinate"]
         "category": ["Geometry"],
         "solution": [7,0]
     },
     {
         "id": 0003,
         "problem":  "A line passes through two points A(2,0), B(0,3) respectively. 1) What is the slope of this line?  2) What is the standard form of this line?",
-        "concept":  ["slope", "line", "line standard form"],
+        "concept":  ["slope", "line", "line standard form", "point"],
+        "topic"   : ["slope","line standard form"]
         "category": ["Geometry"],
         "solution": ["-1.5","?"]
     },
@@ -31,6 +34,7 @@
         "id": 0004,
         "problem":  "There is a line, the slope of it is 3, the intercept of it is 2. What is the slope intercept form of this line? What is the general form of this line?",
         "concept":  ["slope","intercept","line"],
+        "topic": ["line slope intercept form", "line general form"]
         "category": ["Geometry"],
         "solution": ["",""]
     },
@@ -38,9 +42,22 @@
         "id": 0005,
         "problem":  "Given an equation 2y+2x-y+2x+4=0, graph this equation's corresponding shape? What is the slope of this line?",
         "concept":  ["line", "algebra equation solving"],
+        "topic" : ["line slope"]
         "category": ["Geometry"],
+        "style" : ["mathematic"],
         "solution": ["?"]
     },
+    {
+        "id": 0006,
+        "problem":  "If the equation of a line p in the coordinate plane is y = 3x + 2, what is the equation of line q which is a reflection of line p in the x-axis?",
+        "concept":  ["line", "line reflection", "x-axis"],
+        "topic": ["line reflection"]
+        "category": ["Geometry"],
+        "solution": ["y = -3x + 2"]
+    },
+
+
+
     {
         "id": 98,
         "problem": "Simplify the expression 1+2-3?",

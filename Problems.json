@@ -1,75 +1,306 @@
 [
     {
-        "id": 0000,
-        "problem":  "",
-        "concept":  [""],
-        "category": [""],
-        "solution": []
+        "id": "0001",
+        "problem": "Find the distance between A(2,0) and B(5,4)?",
+        "concept": [
+            "distance",
+            "point"
+        ],
+        "topic": [
+            "distance"
+        ],
+        "category": [
+            "Geometry"
+        ],
+        "style": [
+            "mathematic"
+        ],
+        "solution": [
+            "5"
+        ]
     },
     {
-        "id": 0001,
-        "problem":  "Find the distance between A(2,0) and B(5,4)?",
-        "concept":  ["distance", "point"],
-        "topic":    ["distance"]
-        "category": ["Geometry"],
-        "solution": [5]
+        "id": "0002",
+        "problem": "There exists two points A(3,4) and B(7,v), the distance between A and B is 5. What is the value of v?",
+        "concept": [
+            "distance",
+            "point"
+        ],
+        "topic": [
+            "y-coordinate"
+        ],
+        "category": [
+            "Geometry"
+        ],
+        "style": [
+            "mathematic"
+        ],
+        "solution": [
+            "7","1"
+        ]
     },
     {
-        "id": 0002,
-        "problem":  "There exists two points A(3,4) and B(7,v), the distance between A and B is 5. What is the value of v?",
-        "concept":  ["distance", "point"],
-        "topic"   : ["y-coordinate"]
-        "category": ["Geometry"],
-        "solution": [7,0]
+        "id": "0003",
+        "problem": "A line passes through two points A(2,0), B(0,3) respectively. 1) What is the slope of this line?  2) What is the standard form of this line?",
+        "concept": [
+           "slope", "line", "line standard form", "point"
+        ],
+        "topic": [
+            "slope","line standard form"
+        ],
+        "category": [
+            "Geometry"
+        ],
+        "style": [
+            "mathematic"
+        ],
+        "solution": [
+            "-1.5", "3x+2y-6=0"
+        ]
     },
     {
-        "id": 0003,
-        "problem":  "A line passes through two points A(2,0), B(0,3) respectively. 1) What is the slope of this line?  2) What is the standard form of this line?",
-        "concept":  ["slope", "line", "line standard form", "point"],
-        "topic"   : ["slope","line standard form"]
-        "category": ["Geometry"],
-        "solution": ["-1.5"ERROR HERE"?"]
+        "id": "0004",
+        "problem": "There is a line, the slope of it is 3, the intercept of it is 2. What is the slope intercept form of this line? What is the general form of this line?",
+        "concept": [
+            "slope","intercept","line","line slope intercept form","line general form"
+        ],
+        "topic": [
+            "line slope intercept form","line general form"
+        ],
+        "category": [
+            "Geometry"
+        ],
+        "style": [
+            "mathematic"
+        ],
+        "solution": [
+            "y=3x+2","3x-y+2=0"
+        ]
     },
     {
-        "id": 0004,
-        "problem":  "There is a line, the slope of it is 3, the intercept of it is 2. What is the slope intercept form of this line? What is the general form of this line?",
-        "concept":  ["slope","intercept","line"],
-        "topic": ["line slope intercept form", "line general form"]
-        "category": ["Geometry"],
-        "solution": ["",""]
+        "id": "0005",
+        "problem": "Given an equation 2y+2x-y+2x+4=0, graph this equation's corresponding shape? What is the slope of this line?",
+        "concept": [
+            "line", "line equation",
+        ],
+        "topic": [
+           "graph","line slope"
+        ],
+        "category": [
+            "Geometry"
+        ],
+        "style": [
+            "mathematic"
+        ],
+        "solution": [
+            "4x+y+4=0", "m=-4"
+        ]
     },
     {
-        "id": 0005,
-        "problem":  "Given an equation 2y+2x-y+2x+4=0, graph this equation's corresponding shape? What is the slope of this line?",
-        "concept":  ["line", "algebra equation solving"],
-        "topic" : ["line slope"]
-        "category": ["Geometry"],
-        "style" : ["mathematic"],
-        "solution": ["?"]
+        "id": "0006",
+        "problem": "If the equation of a line p in the coordinate plane is y = 3x + 2, what is the equation of line q which is a reflection of line p in the x-axis?",
+        "concept": [
+           "line", "line reflection", "x-axis", "line equation"
+        ],
+        "topic": [
+            "line reflection"
+        ],
+        "category": [
+            "Geometry"
+        ],
+        "style": [
+            "mathematic"
+        ],
+        "solution": [
+            "3x+y-2 = 0"
+        ]
     },
     {
-        "id": 0006,
-        "problem":  "If the equation of a line p in the coordinate plane is y = 3x + 2, what is the equation of line q which is a reflection of line p in the x-axis?",
-        "concept":  ["line", "line reflection", "x-axis"],
-        "topic": ["line reflection"]
-        "category": ["Geometry"],
-        "solution": ["y = -3x + 2"]
+        "id": "0007",
+        "problem": "Line B crosses point A(2,3) and B(3,8), what is the slope of line B?",
+        "concept": [
+            "line","point","line slope"
+        ],
+        "topic": [
+            "line slope"
+        ],
+        "category": [
+            "Geometry"
+        ],
+        "style": [
+            "mathematic"
+        ],
+        "solution": [
+            "5"
+        ]
     },
-
-
-
     {
-        "id": 98,
+        "id": "0008",
+        "problem": "A line passes through points (2,3) and (4,v), the slope of this line is 5. What is the value of v?",
+        "concept": [
+            "line","point","line slope"
+        ],
+        "topic": [
+            "y-coordinate"
+        ],
+        "category": [
+            "Geometry"
+        ],
+        "style": [
+            "mathematic"
+        ],
+        "solution": [
+            "13"
+        ]
+    },
+    {
+        "id": "0009",
+        "problem": "The amount of money that farmers in Massachusetts paid to maintain their between 1991 and 2008 is modeled by the equation P=3.53t+100, where P is the amount of money the farmers paid, in millions of dollars, and t is the year (assuming 1991 is t=0). How much money does farmers get in the year 2001?",
+        "concept": [
+            "line","line equation","x-coordinate"
+        ],
+        "topic": [
+            "y-coordinate"
+        ],
+        "category": [
+            "Geometry"
+        ],
+        "style": [
+            "hybrid"
+        ],
+        "solution": [
+            "135.3"
+        ]
+    },
+    {
+        "id": "0010",
+        "problem": "A college bookstore charges $60 for a yearly membership. The first book is free with the membership, and any book after that costs $7.60 including tax. How much money does a student spend after buying 3 books and a yearly membership?",
+        "concept": [
+            "line","line equation","x-coordinate"
+        ],
+        "topic": [
+            "y-coordinate"
+        ],
+        "category": [
+            "Geometry"
+        ],
+        "style": [
+            "word"
+        ],
+        "solution": [
+            "75.2"
+        ]
+    },
+    {
+        "id": "0011",
+        "problem": " Solve this linear system using your method: 6x - 5y = 8 and -12x + 2y = 0?",
+        "concept": [
+            "linear system","line"
+        ],
+        "topic": [
+            "point"
+        ],
+        "category": [
+            "Geometry"
+        ],
+        "style": [
+            "mathematic"
+        ],
+        "solution": [
+            "(-1/3,-2)"
+        ]
+    },
+    {
+        "id": "0012",
+        "problem": "Line A contains the point (0,5) and is perpendicular to the line B 4y=x, what is the general form of line A?",
+        "concept": [
+            "line","point","line equation","line perpendicular"
+        ],
+        "topic": [
+            "line general form"
+        ],
+        "category": [
+            "Geometry"
+        ],
+        "style": [
+            "mathematic"
+        ],
+        "solution": [
+            "4x+y-5=0"
+        ]
+    },
+    {
+        "id": "0013",
+        "problem": "As a construction manager, you are asked to build a new straight road, which crosses the point (0,0). There is another straight road already built, which can be expressed as y=2x-1. You are asked to build your road such that it will never cross this other road. Find the correct value for a and b in the following equation of your road (y = ax+b). Round any decimals to the nearest hundredth.",
+        "concept": [
+            "line","point","line equation","line perpendicular"
+        ],
+        "topic": [
+            "line coefficient A", "line coefficient B"
+        ],
+        "category": [
+            "Geometry"
+        ],
+        "style": [
+            "hybrid"
+        ],
+        "solution": [            
+            "a=2", "b=0"
+        ]
+    },
+    {
+        "id": "0014",
+        "problem": "Kendrick wrote a business plan for an entrepreneurship class, and now he has to make bound copies. Kendrick could use a printer who charges a setup fee of $50 and $5 for every copy printed. Another possibility is to go to the office supply store, where he could pay an up-front fee of $30 and $7 per copy. There is a certain number of copies that makes the two options equivalent in terms of cost. How much would the copies cost?",
+        "concept": [
+            "line", "linear equation"
+        ],
+        "topic": [
+            "linear equation"
+        ],
+        "category": [
+            "Geometry"
+        ],
+        "style": [
+            "word"
+        ],
+        "solution": [
+            "100"
+        ]
+    },
+    {
+        "id": "B100",
         "problem": "Simplify the expression 1+2-3?",
-        "concept": ["expression simplification"],
-        "category": ["Arithmetic"],
-        "solution": [0]
+        "concept": [
+        ],
+        "topic": [
+            "algebraic expression simplification"
+        ],
+        "category": [
+            "Arithmetic"
+        ],
+        "style": [
+            "mathematic"
+        ],
+        "solution": [
+            "0"
+        ]
     },
     {
-        "id": 99,
+        "id": "B101",
         "problem": "Simplify the expression 1+2+3?",
-        "concept": ["expression simplification"],
-        "category": ["Arithmetic"],
-        "solution": [6]
-    },
+        "concept": [
+        ],
+        "topic": [
+            "algebraic expression simplification"
+        ],
+        "category": [
+            "Arithmetic"
+        ],
+        "style": [
+            "mathematic"
+        ],
+        "solution": [
+            "6"
+        ]
+    }
 ]

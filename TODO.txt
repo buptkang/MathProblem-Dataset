@@ -19,6 +19,27 @@
         ]
     }
 
+In the xy-plane, the graph of the equation y =3x+5 is a line that intersects the y-axis at (0,b), what is the value of b?
+
+The scatterplot above gives the altitude and temperature of 8 locations at a given time. If a is the altitude, in kilometers, and t is the temperature in degrees Celsius, which of the following linear equations best models temperature as a function of altitude for this data?
+
+In the xy-plane, line l contains the point(0,0), and the slope of line l is 1. Line m contains the point (0,10), and l is perpendicular to m. If l and m intersect at the point (x,y), what is the value of y?
+
+Only Geometry side:
+https://www.khanacademy.org/test-prep/sat/sat-math-practice/sat-math-level-4/v/sat-2009-may-3-17
+Two sides of working:
+https://www.khanacademy.org/test-prep/sat/sat-math-practice/sat-math-level-5/v/sat-2008-may-8-16
+
+https://www.khanacademy.org/test-prep/new-sat/new-sat-math/new-sat-heart-of-algebra/v/sat-math-h9-easier
+
+https://www.khanacademy.org/test-prep/new-sat/new-sat-math/new-sat-heart-of-algebra/v/sat-math-h9-harder
+
+https://www.khanacademy.org/test-prep/new-sat/new-sat-math/new-sat-heart-of-algebra/v/sat-math-h3-easier
+
+https://www.khanacademy.org/test-prep/new-sat/new-sat-math/new-sat-heart-of-algebra/v/sat-math-h3-harder
+
+
+
 6. Determine the general form of this line: The line through (-2,0) with slope -2.
 
 7. The points (3,v) and (2,0) fall on a line with a slope of 10. What is the value of v?

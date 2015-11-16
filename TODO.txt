@@ -1,3 +1,24 @@
+    {
+        "id": "",
+        "problem": "",
+        "concept": [
+            "",
+            ""
+        ],
+        "topic": [
+            ""
+        ],
+        "category": [
+            ""
+        ],
+        "style": [
+            ""
+        ],
+        "solution": [
+            
+        ]
+    }
+
 6. Determine the general form of this line: The line through (-2,0) with slope -2.
 
 7. The points (3,v) and (2,0) fall on a line with a slope of 10. What is the value of v?

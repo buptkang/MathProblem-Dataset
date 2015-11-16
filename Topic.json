@@ -1,13 +1,43 @@
-[
-  "line reflection": ["line"]
-
-  "line" : ["point", "line equation"]
-
-  "line equation" : ["line standard form", "line point slope form", "line slope intercept form"]
-
-  "point": ["x-coordinate", "y-coordinate"]
-
-  "distance": ["point"]
-
-  "algebra equation solving" : ["algebra simplification"]
-]
+{
+    "algebraic simplification": [],
+    "algebra equation solving": [
+        "algebra simplification"
+    ],
+    "x-coordinate": [],
+    "y-coordinate": [],
+    "x-axis" : [],
+    "y-axis" : [],
+    "point": [
+        "x-coordinate",
+        "y-coordinate"
+    ],
+    "line": [
+        "point",
+        "line equation"
+    ],
+    "line standard form": [],
+    "line point slope form": [],
+    "line slope intercept form": [],
+    "line general form" : [],
+    "line equation": [
+        "line standard form",
+        "line point slope form",
+        "line slope intercept form",
+        "line general form"
+    ],
+    "line slope":[
+    	"line"
+    ],
+    "distance": [
+        "point"
+    ],
+    "line reflection": [
+        "line"
+    ],
+    "linear system": [
+		"line", "line perpendicular"
+    ],
+    "line perpendicular" :[
+    	"line"
+    ]
+}

@@ -8,4 +8,6 @@
   "point": ["x-coordinate", "y-coordinate"]
 
   "distance": ["point"]
+
+  "algebra equation solving" : ["algebra simplification"]
 ]

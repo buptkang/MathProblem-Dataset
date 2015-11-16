@@ -42,10 +42,10 @@
         "id": 0005,
         "problem":  "Given an equation 2y+2x-y+2x+4=0, graph this equation's corresponding shape? What is the slope of this line?",
         "concept":  ["line", "algebra equation solving"],
-        "topic" : ["line slope"]
+        "topic" : ["graph","line slope"]
         "category": ["Geometry"],
         "style" : ["mathematic"],
-        "solution": ["?"]
+        "solution": ["4x+y+4=0", "m=-4"]
     },
     {
         "id": 0006,

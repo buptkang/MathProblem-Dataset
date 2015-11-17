@@ -43,7 +43,7 @@
         "id": "0003",
         "problem": "A line passes through two points A(2,0), B(0,3) respectively. 1) What is the slope of this line?  2) What is the standard form of this line?",
         "concept": [
-           "slope", "line", "line standard form", "point"
+           "line slope", "line", "line standard form", "point"
         ],
         "topic": [
             "slope","line standard form"
@@ -55,14 +55,14 @@
             "mathematic"
         ],
         "solution": [
-            "-1.5", "3x+2y-6=0"
+            "-1.5", "3x+2y=6"
         ]
     },
     {
         "id": "0004",
         "problem": "There is a line, the slope of it is 3, the intercept of it is 2. What is the slope intercept form of this line? What is the general form of this line?",
         "concept": [
-            "slope","intercept","line","line slope intercept form","line general form"
+            "line slope","intercept","line","line slope intercept form","line general form"
         ],
         "topic": [
             "line slope intercept form","line general form"
@@ -93,17 +93,17 @@
             "mathematic"
         ],
         "solution": [
-            "4x+y+4=0", "m=-4"
+            "4x+y+4=0", "-4"
         ]
     },
     {
         "id": "0006",
-        "problem": "If the equation of a line p in the coordinate plane is y = 3x + 2, what is the equation of line q which is a reflection of line p in the x-axis?",
+        "problem": "If the equation of a line p in the coordinate plane is y = 3x + 2, what is the general form of line q which is a reflection of line p in the x-axis?",
         "concept": [
            "line", "line reflection", "x-axis", "line equation"
         ],
         "topic": [
-            "line reflection"
+            "line general form"
         ],
         "category": [
             "Geometry"
@@ -112,7 +112,7 @@
             "mathematic"
         ],
         "solution": [
-            "3x+y-2 = 0"
+            "3x+y-2=0"
         ]
     },
     {
@@ -244,8 +244,8 @@
         "style": [
             "hybrid"
         ],
-        "solution": [            
-            "a=2", "b=0"
+        "solution": [
+            "2", "0"
         ]
     },
     {

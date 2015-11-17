@@ -5,8 +5,8 @@
     ],
     "x-coordinate": [],
     "y-coordinate": [],
-    "x-axis" : [],
-    "y-axis" : [],
+    "x-axis": [],
+    "y-axis": [],
     "point": [
         "x-coordinate",
         "y-coordinate"
@@ -18,15 +18,19 @@
     "line standard form": [],
     "line point slope form": [],
     "line slope intercept form": [],
-    "line general form" : [],
+    "line general form": [
+        "line coefficient A",
+        "line coefficient B",
+        "line coefficient C"
+    ],
     "line equation": [
         "line standard form",
         "line point slope form",
         "line slope intercept form",
         "line general form"
     ],
-    "line slope":[
-    	"line"
+    "line slope": [
+        "line"
     ],
     "distance": [
         "point"
@@ -35,9 +39,10 @@
         "line"
     ],
     "linear system": [
-		"line", "line perpendicular"
+        "line",
+        "line perpendicular"
     ],
-    "line perpendicular" :[
-    	"line"
+    "line perpendicular": [
+        "line"
     ]
 }

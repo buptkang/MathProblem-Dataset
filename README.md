@@ -36,13 +36,15 @@ Format of Topics.json:
 ___
 
 Format of Scaffolds.json:
-| Column Name  | Column Type   |         Column Explanation       |
-| -------------|---------------|----------------------------------|
-|  problem-id  |    string     |corresponds to ID in problems.json|
-| problem-text |    string     |      question being asked        |
-|    steps     |list of records|  step in scaffold (see below)    |
+
+| Column Name  |  Column Type    |          Column Explanation        |
+| -------------|-----------------|------------------------------------|
+|  problem-id  |     string      | corresponds to ID in problems.json |
+| problem-text |     string      |       question being asked         |
+|    steps     | list of records |   step in scaffold (see below)     |
 
 "step" record:
+
 | Column Name  | Column Type   |         Column Explanation         |
 | -------------|---------------|------------------------------------|
 |   id         |    string     |       unique identifier            |
@@ -52,7 +54,11 @@ Format of Scaffolds.json:
 |concepts-used |list of strings| embed all topics employed by step  |
 
 
-*| dependency   | list of strings  | embed combination of step-ids that must are used in this set (i.e. must have already been completed for this step to take place) |
+*
+
+| Column Name  |    Column Type   |                                               Column Explanation                                                          |
+| -------------|------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| dependency   | list of strings  | embed combination of step-ids that must are used in this set (i.e. must have already been completed for this step to take place) |
 
 
 ___

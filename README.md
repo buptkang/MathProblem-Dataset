@@ -1,5 +1,5 @@
 # Math Problem Dataset
-This is a math problem dataset that covers algebra and geometry topics. The reason for this dataset is to provides better data support to design and implement a math interactive learning system.
+This is a math problem dataset that covers algebra and geometry topics. This data set can be served for different research purposes: math problem natural language process, adaptive scaffolding analysis and interactive learning system development.
 
 The scope of knowledge components in this data set covers:
 Arithmetic Manipulation, Algebraic Manipulation, Analytical Geometry and Coordinate Geometry. (Update required) 
@@ -25,8 +25,7 @@ Format of Problems.json:
 |     solution |    array     |   maps to number of topic column |
 
 Format of Topics.json:
+(Josh TODO)
 
 Format of Instructions.json:
 (Josh TODO)
-
-

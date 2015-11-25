@@ -5,9 +5,12 @@ The scope of knowledge components in this data set covers:
 Arithmetic Manipulation, Algebraic Manipulation, Analytical Geometry and Coordinate Geometry. (Update required) 
 
 There are **three dimensions of data**:
-1. math problems: Problems.json
-2. math concepts: Topics.json
-3. math instructions(scaffoldings) per problem: Instructions.json
+
+1. Math problems: Problems.json
+
+2. Math concepts: Topics.json
+
+3. Math instructions (scaffoldings) per problem: Instructions.json
 
 Format of Problems.json:
 

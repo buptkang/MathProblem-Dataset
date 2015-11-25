@@ -3,8 +3,10 @@
 This is a math problem dataset that covers algebra and geometry topics. This data set can be served for different research purposes: math problem natural language process, adaptive scaffolding analysis and interactive learning system development.
 </p>
 
+Math problems are designed to elicit math concepts. Math concept can be described as a function, a structure, a behavior or a relations with other concepts, there can be different narrative math problems to reinforce the same math concept learning.
+
 The scope of knowledge components in this data set covers:
-Arithmetic Manipulation, Algebraic Manipulation, Analytical Geometry and Coordinate Geometry. (Update required) 
+Arithmetic Manipulation, Algebraic Manipulation, Analytical Geometry and Coordinate Geometry. (Update required)
 
 There are **three dimensions of data**:
 

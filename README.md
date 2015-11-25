@@ -13,7 +13,6 @@ Dimension 2 is math concepts: Topics.json
 Dimension 3 is math instructions(scaffoldings) per problem: Instructions.json
 </p>
 
-<p align="justify">
 
 Format of Problems.json:
 
@@ -26,5 +25,3 @@ Format of Problems.json:
 |    category  |  enumeration |   Geometry, Arithmetic, Algebra  |
 |      style   |  enumeration |   mathematic, hybrid, word       |
 |     solution |    array     |   maps to number of topic column |
-
-</p>

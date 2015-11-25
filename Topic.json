@@ -1,8 +1,20 @@
 {
+  "arithmetic addition": [],
+  "arithmetic subtraction": [],
+  "arithmetic multiplication": [],
+  "arithmetic division": [],
+
+  "algebra addition": [],
+  "algebra substraction": [],
+  "algebra" : [],
+
+
   "algebraic simplification": [ ],
   "algebra equation solving": [
     "algebra simplification"
   ],
+
+  "angle": [],
   "x-coordinate": [ ],
   "y-coordinate": [ ],
   "x-axis": [ ],
@@ -15,6 +27,7 @@
     "point",
     "line equation"
   ],
+  "mid point": [],
   "line standard form": [ ],
   "line point slope form": [ ],
   "line slope intercept form": [ ],
@@ -71,6 +84,9 @@
   "G value": [ ],
   "D coefficient": [ ],
   "E coefficient": [ ],
-  "F value": [ ]
+  "F value": [ ],
 
+  "circle circumference": [],
+  "Tangents": [],
+  "circle area": [],
 }

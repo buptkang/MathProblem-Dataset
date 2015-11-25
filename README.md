@@ -35,8 +35,25 @@ Format of Topics.json:
 
 ___
 
-Format of Instructions.json:
-(Josh TODO)
+Format of Scaffolds.json:
+| Column Name  | Column Type   |         Column Explanation       |
+| -------------|---------------|----------------------------------|
+|  problem-id  |    string     |corresponds to ID in problems.json|
+| problem-text |    string     |      question being asked        |
+|    steps     |list of records|  step in scaffold (see below)    |
+
+"step" record:
+| Column Name  | Column Type   |         Column Explanation         |
+| -------------|---------------|------------------------------------|
+|   id         |    string     |       unique identifier            |
+|   type       |    string     |   summary,meta,scaffold,solution   |
+|   text       |    string     |   embed text of scaffold step      |
+| dependencies | list of list  | map all potential dependency* sets |
+|concepts-used |list of strings| embed all topics employed by step  |
+
+
+*| dependency   | list of strings  | embed combination of step-ids that must are used in this set (i.e. must have already been completed for this step to take place) |
+
 
 ___
 

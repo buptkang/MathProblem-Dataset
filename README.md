@@ -1,18 +1,13 @@
 # Math Problem Dataset
-This is a <a href="https://en.wikipedia.org/wiki/Word_problem_(mathematics_education)">math problem</a> dataset that covers algebra and geometry topics.
+This is a math problem dataset that covers algebra and geometry topics. The reason for this dataset is to provides better data support to design and implement a math interactive learning system.
 
-<p align="justify">
-In comparison to well-researched arithmetic word problem or <a href="http://groups.csail.mit.edu/rbg/code/wordprobs/">algebra word problem</a>, this data set (math problems) contains geometry oriented math word problem which use algebraic
-knowledge to solve (Coordinate Geometry or Analytical Geometry)
-</p>
+The scope of knowledge components in this data set covers:
+Arithmetic Manipulation, Algebraic Manipulation, Analytical Geometry and Coordinate Geometry. (Update required) 
 
-<p align="justify">
-There are three dimensions of data which is collected here.
-Dimension 1 is math problems: Problems.json
-Dimension 2 is math concepts: Topics.json
-Dimension 3 is math instructions(scaffoldings) per problem: Instructions.json
-</p>
-
+There are **three dimensions of data**:
+1. math problems: Problems.json
+2. math concepts: Topics.json
+3. math instructions(scaffoldings) per problem: Instructions.json
 
 Format of Problems.json:
 
@@ -25,3 +20,10 @@ Format of Problems.json:
 |    category  |  enumeration |   Geometry, Arithmetic, Algebra  |
 |      style   |  enumeration |   mathematic, hybrid, word       |
 |     solution |    array     |   maps to number of topic column |
+
+Format of Topics.json:
+
+Format of Instructions.json:
+(Josh TODO)
+
+

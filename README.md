@@ -14,6 +14,8 @@ There are **three dimensions of data**:
 
 3. Math instructions (scaffoldings) per problem: Instructions.json
 
+___
+
 Format of Problems.json:
 
 | Column Name  | Column Type  |         Column Explanation       |
@@ -26,8 +28,12 @@ Format of Problems.json:
 |      style   |  enumeration |   mathematic, hybrid, word       |
 |     solution |    array     |   maps to number of topic column |
 
+___
+
 Format of Topics.json:
 (Josh TODO)
+
+___
 
 Format of Instructions.json:
 (Josh TODO)

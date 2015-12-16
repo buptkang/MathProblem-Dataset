@@ -1,3 +1,55 @@
+/*
+By given the line equation L,
+What is the slope of the line L?
+What is the intercept of the line L?
+What is the standard form of the line L?
+What is the slope-intercept form of the line L?
+*/
+
+/*
+By given the circle equation C,
+What is the radius of the circle C?
+What is the central point of the circle C?
+What is the standard form of the circle C?
+What is the polynomial form of the circle C?
+*/
+
+/*
+By given the ellipse equation E,
+*/
+
+/*
+By given the parabola equation P,
+*/
+
+/*
+By given the hyperbola equation H,
+*/
+
+/*
+By given two coordinate points P1, P2
+what is the distance between P1 and P2?
+*/
+
+/*
+By given one coordinate points P and one line L,
+If point P is on the line L?
+What is the distance between P and L?
+*/
+
+/*
+By given two line equations, L1, L2,
+If L1 and L2 intersect?
+If L1 and L2 Perpendicular?
+If L1 and L2 Parallel?
+What is the angle between L1 and L2?
+*/
+
+/*
+By given three line equations L1, L2, L3
+What is the size of triangle?
+*/
+
 Concept: Line Slope y=mx+b, slope = rise/run
 
     {
@@ -17,7 +69,7 @@ Concept: Line Slope y=mx+b, slope = rise/run
             ""
         ],
         "solution": [
-            
+
         ]
     }
 

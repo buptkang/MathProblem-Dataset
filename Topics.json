@@ -1,98 +1,34 @@
-{
-  "arithmetic addition": [],
-  "arithmetic subtraction": [],
-  "arithmetic multiplication": [],
-  "arithmetic division": [],
-
-  "algebra addition": [],
-  "algebra substraction": [],
-  "algebra" : [],
-
-
-  "algebraic simplification": [ ],
-  "algebra equation solving": [
-    "algebra simplification"
-  ],
-
-  "angle": [],
-  "x-coordinate": [ ],
-  "y-coordinate": [ ],
-  "x-axis": [ ],
-  "y-axis": [ ],
-  "point": [
-    "x-coordinate",
-    "y-coordinate"
-  ],
-  "line": [
-    "point",
-    "line equation"
-  ],
-  "mid point": [],
-  "line standard form": [ ],
-  "line point slope form": [ ],
-  "line slope intercept form": [ ],
-  "line general form": [
-    "line coefficient A",
-    "line coefficient B",
-    "line coefficient C"
-  ],
-  "line equation": [
-    "line standard form",
-    "line point slope form",
-    "line slope intercept form",
-    "line general form"
-  ],
-  "positive slope":[
-    "line slope"
-  ],
-  "negative slope":[
-    "line slope"
-  ],
-  "line slope": [
-    "line"
-  ],
-  "distance": [
-    "point"
-  ],
-  "line reflection": [
-    "line"
-  ],
-  "linear system": [
-    "line",
-    "line perpendicular"
-  ],
-  "line perpendicular": [
-    "line"
-  ],
-  "circle": [
-    "radius",
-    "center"
-  ],
-  "circle equation": [
-    "center-radius form",
-    "circle general form"
-  ],
-  "center-radius form": [
-    "H value",
-    "G value",
-    "radius"
-  ],
-  "center": [
-    "point"
-  ],
-  "circle general form": [
-    "D coefficient",
-    "E coefficient",
-    "F value"
-  ],
-  "radius": [ ],
-  "H value": [ ],
-  "G value": [ ],
-  "D coefficient": [ ],
-  "E coefficient": [ ],
-  "F value": [ ],
-
-  "circle circumference": [],
-  "Tangents": [],
-  "circle area": []
-}
+[
+  {
+    "topic": "number",
+    "dependencies": []
+  },
+  {
+    "topic": "arithmetic",
+    "dependencies": ["number"]
+  },
+  {
+    "topic": "word arithmetic",
+    "dependencies": ["arithmetic"]
+  },
+  {
+    "topic": "algebra",
+    "dependencies": ["arithmetic"]
+  },
+  {
+    "topic": "word algebra",
+    "dependencies": ["algebra"]
+  },
+  {
+    "topic": "fraction",
+    "dependencies": ["algebra"]
+  },
+  {
+    "topic": "geometry",
+    "dependencies": ["algebra"]
+  },
+  {
+    "topic": "word geometry",
+    "dependencies": ["geometry"]
+  }
+]

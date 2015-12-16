@@ -1,4 +1,4 @@
-pan change
+
 
 Concept: Line Slope y=mx+b, slope = rise/run
 

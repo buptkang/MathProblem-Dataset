@@ -1,3 +1,4 @@
+
 /*
 By given the line equation L,
 What is the slope of the line L?
@@ -49,6 +50,7 @@ What is the angle between L1 and L2?
 By given three line equations L1, L2, L3
 What is the size of triangle?
 */
+=======
 
 Concept: Line Slope y=mx+b, slope = rise/run
 

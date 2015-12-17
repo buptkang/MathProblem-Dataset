@@ -2,6 +2,119 @@
   {
     "id": "0001",
     "problem": "Find the distance between A(2,0) and B(5,4)?",
+
+(ROOT
+  (SQ
+    (VP (VB Find)
+      (NP
+        (NP (DT the) (NN distance))
+        (PP (IN between)
+          (NP
+            (NP (NNP A))
+            (PRN (-LRB- -LRB-)
+              (NP (CD 2,0))
+              (-RRB- -RRB-))
+            (CC and)
+            (NP (NNP B))
+            (PRN (-LRB- -LRB-)
+              (NP (CD 5,4))
+              (-RRB- -RRB-))))))
+    (. ?)))
+
+    "srl":
+    [
+      {"id": 0, "tag": "verb", "label": null},
+      {"id": 1, "label": null},
+      {"id": 2, "label": ??},
+      {"id": 3, "label": null},
+      {"id": 4, "label": A(2,0)},
+      {"id": 5, "label": null},
+      {"id": 6, "label": B(5,4)},
+      {"id": 7, "label": null},
+    ],
+
+    "semantic": ["A(2,0)","B(5,4)","d(A,B)=?"],
+
+
+
+the  dog eat bones in the park
+
+
+< eat>
+
+
+arg0 dog,
+
+arg1 bones
+
+agtemp in the park
+
+
+
+Find the distance between A(2,0) and B(5,4)
+
+< find> verb
+
+arg0 distance
+
+argtem : between A(2,0) and B(5,4)
+
+d=?
+　
+
+distance ->
+  pointA, pointB
+ｄ（　Ａ，Ｂ）
+
+
+
+pipeline-> input(syntax tree) ->(SRL: CRF) -> semantic tree(verb bank similar)
+-> (concept role labling) ->
+
+
+
+d=?, A(2,0), B(5,4)
+
+
+======================================
+
+
+A line passes through points (2,3) and (4,v), the slope of this line is 5. What is the value of v?
+
+
+＜pass trhough>
+arg0 a line
+arg1 points (2,3) and (4,v)
+
+<is>
+arg0: the slop of the line
+argp: of the line
+argp-1: the line
+arg1: 5
+
+<is>
+agr0:what
+agr1: value of v
+argp: of v
+
+
+intermediate semantic:
+1: concept1 line, concept2 points
+
+
+(2,3), (4,v), s=5, v=?
+
+
+data format -> problem.io
+
+
+
+
+
+
+
+
+
     "concept": [
       "distance",
       "point"
@@ -15,9 +128,7 @@
     "style": [
       "mathematic"
     ],
-    "solution": [
-      "5"
-    ]
+
   },
   {
     "id": "0002",
@@ -356,7 +467,7 @@
   },
   {
     "id": "C002",
-    "problem": "What is the center of the circle described by the equation �(X-2)^2 + (Y-3)^2 = 4�? What is the radius?",
+    "problem": "What is the center of the circle described by the equation ‘(X-2)^2 + (Y-3)^2 = 4’? What is the radius?",
     "concept": [ "circle", "center", "radius", "center-radius form"],
     "topic": [ "center-radius form"],
     "category": [ "Geometry"],
@@ -365,7 +476,7 @@
   },
   {
     "id": "C003",
-    "problem": "A radio tower is located 25 miles east and 30 miles south of Lorne�s home. It emits a circle in all directions. The tower�s signal reaches all receivers within 50 miles of the tower. Using Lorne�s home as the point of origin, write an equation that describes the farther locations that the signal will reach.",
+    "problem": "A radio tower is located 25 miles east and 30 miles south of Lorne’s home. It emits a circle in all directions. The tower’s signal reaches all receivers within 50 miles of the tower. Using Lorne’s home as the point of origin, write an equation that describes the farther locations that the signal will reach.",
     "concept": [ "circle", "center-radius form"],
     "topic": [ "center-radius form"],
     "category": [ "Geometry"],
@@ -383,7 +494,7 @@
   },
   {
     "id": "C005",
-    "problem": "Bob lives 3 blocks north of Linda. Jane lives 3 blocks east, and 3 blocks south of Bob. Adam lives 6 blocks west of Jane. Carolyn lives 6 blocks east and 9 blocks south of Linda. Using Carolyn�s house as a point of origin, what is an equation of the circle that would pass through Bob, Jane, and Adam�s houses?",
+    "problem": "Bob lives 3 blocks north of Linda. Jane lives 3 blocks east, and 3 blocks south of Bob. Adam lives 6 blocks west of Jane. Carolyn lives 6 blocks east and 9 blocks south of Linda. Using Carolyn’s house as a point of origin, what is an equation of the circle that would pass through Bob, Jane, and Adam’s houses?",
     "concept": [ "circle", "center-radius form", "point"],
     "topic": [ "center-radius form"],
     "category": [ "Geometry" ],

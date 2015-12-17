@@ -177,7 +177,7 @@
     {
       "concept": "line coefficient",
       "topic": "geometry",
-      "algebra" "negative integer",
+      "algebra": "negative integer"
     },
     {
       "concept": "line standard form",
@@ -187,7 +187,7 @@
     {
       "concept": "slope",
       "topic": "geometry",
-      "algebra": "slope equation"
+      "algebra": "slope equation",
       "dependencies": ["point"]
     },
     {
@@ -264,13 +264,13 @@
     {
       "concept": "line segment",
       "topic": "geometry",
-      "dependencies": [ "line", "point" ],
+      "dependencies": [ "line", "point" ]
     },
     {
       "concept": "line segment distance",
       "topic": "geometry",
-      "algebra": "distance function"
-      "dependencies": [ "line segment"],
+      "algebra": "distance function",
+      "dependencies": [ "line segment"]
     },
 
     //pyranthesis theorem? How to encode such information

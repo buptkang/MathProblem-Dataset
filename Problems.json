@@ -2,148 +2,18 @@
   {
     "id": "0001",
     "problem": "Find the distance between A(2,0) and B(5,4)?",
-
-(ROOT
-  (SQ
-    (VP (VB Find)
-      (NP
-        (NP (DT the) (NN distance))
-        (PP (IN between)
-          (NP
-            (NP (NNP A))
-            (PRN (-LRB- -LRB-)
-              (NP (CD 2,0))
-              (-RRB- -RRB-))
-            (CC and)
-            (NP (NNP B))
-            (PRN (-LRB- -LRB-)
-              (NP (CD 5,4))
-              (-RRB- -RRB-))))))
-    (. ?)))
-
-    "srl":
-    [
-      {"id": 0, "tag": "verb", "label": null},
-      {"id": 1, "label": null},
-      {"id": 2, "label": ??},
-      {"id": 3, "label": null},
-      {"id": 4, "label": A(2,0)},
-      {"id": 5, "label": null},
-      {"id": 6, "label": B(5,4)},
-      {"id": 7, "label": null},
-    ],
-
-    "semantic": ["A(2,0)","B(5,4)","d(A,B)=?"],
-
-
-
-the  dog eat bones in the park
-
-
-< eat>
-
-
-arg0 dog,
-
-arg1 bones
-
-agtemp in the park
-
-
-
-Find the distance between A(2,0) and B(5,4)
-
-< find> verb
-
-arg0 distance
-
-argtem : between A(2,0) and B(5,4)
-
-d=?
-　
-
-distance ->
-  pointA, pointB
-ｄ（　Ａ，Ｂ）
-
-
-
-pipeline-> input(syntax tree) ->(SRL: CRF) -> semantic tree(verb bank similar)
--> (concept role labling) ->
-
-
-
-d=?, A(2,0), B(5,4)
-
-
-======================================
-
-
-A line passes through points (2,3) and (4,v), the slope of this line is 5. What is the value of v?
-
-
-＜pass trhough>
-arg0 a line
-arg1 points (2,3) and (4,v)
-
-<is>
-arg0: the slop of the line
-argp: of the line
-argp-1: the line
-arg1: 5
-
-<is>
-agr0:what
-agr1: value of v
-argp: of v
-
-
-intermediate semantic:
-1: concept1 line, concept2 points
-
-
-(2,3), (4,v), s=5, v=?
-
-
-data format -> problem.io
-
-
-
-    "concept": [
-      "distance",
-      "point"
-    ],
-    "topic": [
-      "distance"
-    ],
-    "category": [
-      "Geometry"
-    ],
-    "style": [
-      "mathematic"
-    ],
-
+    "semantic": ["A(2,0)", "B(5,4)", "d=?"],
+    "concept" : ["distance", "point"],
+    "topic":    ["geometry"],
+    "solution": ["5"]
   },
   {
     "id": "0002",
     "problem": "There exists two points A(3,4) and B(7,v), the distance between A and B is 5. What is the value of v?",
-    "concept": [
-      "distance",
-      "point"
-    ],
-    "topic": [
-      "y-coordinate"
-    ],
-    "category": [
-      "Geometry"
-    ],
-    "style": [
-      "mathematic"
-    ],
-    "solution": [
-      "7",
-      "1"
-    ]
+    "semantic": ["A(3,4)", "B(7,v)", "d=5", "v=?"],
+    "concept": ["distance","point"],
+    "topic": ["geometry"],
+    "solution": ["7","1"]
   },
   {
     "id": "0003",

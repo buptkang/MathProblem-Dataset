@@ -18,360 +18,369 @@
   {
     "id": "0003",
     "problem": "A line passes through two points A(2,0), B(0,3) respectively. 1) What is the slope of this line?  2) What is the standard form of this line?",
-    "concept": [
-      "line slope",
-      "line",
-      "line standard form",
-      "point"
-    ],
-    "topic": [
-      "slope",
-      "line standard form"
-    ],
-    "category": [
-      "Geometry"
-    ],
-    "style": [
-      "mathematic"
-    ],
-    "solution": [
-      "-1.5",
-      "3x+2y=6"
-    ]
+    "semantic": ["A(2,0)", "B(0,3)", "S=?", "Line(s)=?"],
+    "concept": ["line slope","line","line standard form","point"],
+    "topic": ["geometry"],
+    "solution": ["-1.5","3x+2y=6"]
   },
   {
     "id": "0004",
-    "problem": "There is a line, the slope of it is 3, the intercept of it is 2. What is the slope intercept form of this line? What is the general form of this line?",
-    "concept": [
-      "line slope",
-      "intercept",
-      "line",
-      "line slope intercept form",
-      "line general form"
-    ],
-    "topic": [
-      "line slope intercept form",
-      "line general form"
-    ],
-    "category": [
-      "Geometry"
-    ],
-    "style": [
-      "mathematic"
-    ],
-    "solution": [
-      "y=3x+2",
-      "3x-y+2=0"
-    ]
+    "problem": "There is a line, the slope of it is 3, the y-intercept of it is 2. What is the slope intercept form of this line? What is the general form of this line?",
+    "semantic": ["m=3", "k=2", "Line(si)=?", "Line(g)=?"],
+    "concept": ["line slope","line y-intercept","line","line slope intercept form","line general form"],
+    "topic": ["geometry"],
+    "solution": ["y=3x+2","3x-y+2=0"]
   },
   {
     "id": "0005",
     "problem": "Given an equation 2y+2x-y+2x+4=0, graph this equation's corresponding shape? What is the slope of this line?",
-    "concept": [
-      "line",
-      "line equation",
-    ],
-    "topic": [
-      "graph",
-      "line slope"
-    ],
-    "category": [
-      "Geometry"
-    ],
-    "style": [
-      "mathematic"
-    ],
-    "solution": [
-      "4x+y+4=0",
-      "-4"
-    ]
+    "semantic": ["2y+2x-y+2x+4=0", "Graph=?", "S=?"],
+    "concept": ["line","line equation","line slope","negative slope"],
+    "topic": ["geometry"],
+    "solution": ["4x+y+4=0","-4"]
   },
   {
     "id": "0006",
-    "problem": "If the equation of a line p in the coordinate plane is y = 3x + 2, what is the general form of line q which is a reflection of line p in the x-axis?",
-    "concept": [
-      "line",
-      "line reflection",
-      "x-axis",
-      "line equation"
-    ],
-    "topic": [
-      "line general form"
-    ],
-    "category": [
-      "Geometry"
-    ],
-    "style": [
-      "mathematic"
-    ],
-    "solution": [
-      "3x+y-2=0"
-    ]
+    "problem": "If the equation of a line p in the coordinate plane is y=3x+2, what is the general form of line q which is a reflection of line p in the x-axis?",
+    "semantic": ["2y+2x-y+2x+4=0", "Graph=?", "S=?"],
+    "concept": ["line","line reflection","x-axis","line equation"],
+    "topic": ["geometry"],
+    "solution": ["3x+y-2=0"]
   },
   {
     "id": "0007",
     "problem": "Line B crosses point A(2,3) and B(3,8), what is the slope of line B?",
-    "concept": [
-      "line",
-      "point",
-      "line slope"
-    ],
-    "topic": [
-      "line slope"
-    ],
-    "category": [
-      "Geometry"
-    ],
-    "style": [
-      "mathematic"
-    ],
-    "solution": [
-      "5"
-    ]
+    "semantic": ["A(2,3)", "B(3,8)", "m=?"],
+    "concept": ["line","point","line slope"],
+    "topic": ["geometry"],
+    "solution": ["5"]
   },
   {
     "id": "0008",
     "problem": "A line passes through points (2,3) and (4,v), the slope of this line is 5. What is the value of v?",
-    "concept": [
-      "line",
-      "point",
-      "line slope"
-    ],
-    "topic": [
-      "y-coordinate"
-    ],
-    "category": [
-      "Geometry"
-    ],
-    "style": [
-      "mathematic"
-    ],
-    "solution": [
-      "13"
-    ]
+    "semantic": ["(2,3)", "(4,v)", "m=5", "v=?"],
+    "concept": ["line","point","line slope"],
+    "topic": ["geometry"],
+    "solution": ["13"]
   },
   {
     "id": "0009",
-    "problem": "The amount of money that farmers in Massachusetts paid to maintain their between 1991 and 2008 is modeled by the equation P=3.53t+100, where P is the amount of money the farmers paid, in millions of dollars, and t is the year (assuming 1991 is t=0). How much money does farmers get in the year 2001?",
-    "concept": [
-      "line",
-      "line equation",
-      "x-coordinate"
-    ],
-    "topic": [
-      "y-coordinate"
-    ],
-    "category": [
-      "Geometry"
-    ],
-    "style": [
-      "hybrid"
-    ],
-    "solution": [
-      "135.3"
-    ]
+    "problem": " Solve this linear system using your method: 6x-5y=8 and -12x+2y=0?",
+    "semantic": ["6x-5y=8", "-12x+2y=0", "solve=?"],
+    "concept": ["solving two algebraic linear system"],
+    "topic": ["algebra"],
+    "solution": ["(-1/3,-2)"]
   },
   {
     "id": "0010",
-    "problem": "A college bookstore charges $60 for a yearly membership. The first book is free with the membership, and any book after that costs $7.60 including tax. How much money does a student spend after buying 3 books and a yearly membership?",
-    "concept": [
-      "line",
-      "line equation",
-      "x-coordinate"
-    ],
-    "topic": [
-      "y-coordinate"
-    ],
-    "category": [
-      "Geometry"
-    ],
-    "style": [
-      "word"
-    ],
-    "solution": [
-      "75.2"
-    ]
+    "problem": "Line A contains the point (0,5) and is perpendicular to the line B 4y=x, what is the general form of line A?",
+    "semantic": ["Line:A((0,5))","B:4y=x","m(B)*m(A)=-1", "Line(A,g)=?"],
+    "concept": ["line","point","line equation","two line perpendicular"],
+    "topic": ["geometry"],
+    "solution": ["4x+y-5=0"]
   },
   {
     "id": "0011",
-    "problem": " Solve this linear system using your method: 6x - 5y = 8 and -12x + 2y = 0?",
-    "concept": [
-      "linear system",
-      "line"
-    ],
-    "topic": [
-      "point"
-    ],
-    "category": [
-      "Geometry"
-    ],
-    "style": [
-      "mathematic"
-    ],
-    "solution": [
-      "(-1/3,-2)"
-    ]
+    "problem": "Simplify the expression 1+2-3?",
+    "semantic": ["1+2-3=?"],
+    "concept": ["arithmetic subtraction"],
+    "topic": ["arithmetic"],   
+    "solution": ["0"]
   },
   {
     "id": "0012",
-    "problem": "Line A contains the point (0,5) and is perpendicular to the line B 4y=x, what is the general form of line A?",
-    "concept": [
-      "line",
-      "point",
-      "line equation",
-      "line perpendicular"
-    ],
-    "topic": [
-      "line general form"
-    ],
-    "category": [
-      "Geometry"
-    ],
-    "style": [
-      "mathematic"
-    ],
-    "solution": [
-      "4x+y-5=0"
-    ]
+    "problem": "Simplify the expression 1+2+3?",
+    "semantic": ["1+2+3=?"],
+    "concept": ["arithmetic addition"],
+    "topic": ["arithmetic"],
+    "solution": ["6"]
   },
   {
     "id": "0013",
-    "problem": "As a construction manager, you are asked to build a new straight road, which crosses the point (0,0). There is another straight road already built, which can be expressed as y=2x-1. You are asked to build your road such that it will never cross this other road. Find the correct value for a and b in the following equation of your road (y = ax+b). Round any decimals to the nearest hundredth.",
-    "concept": [
-      "line",
-      "point",
-      "line equation",
-      "line perpendicular"
-    ],
-    "topic": [
-      "line coefficient A",
-      "line coefficient B"
-    ],
-    "category": [
-      "Geometry"
-    ],
-    "style": [
-      "hybrid"
-    ],
-    "solution": [
-      "2",
-      "0"
-    ]
-  },
-  {
-    "id": "0014",
-    "problem": "Kendrick wrote a business plan for an entrepreneurship class, and now he has to make bound copies. Kendrick could use a printer who charges a setup fee of $50 and $5 for every copy printed. Another possibility is to go to the office supply store, where he could pay an up-front fee of $30 and $7 per copy. There is a certain number of copies that makes the two options equivalent in terms of cost. How much would the copies cost?",
-    "concept": [
-      "line",
-      "linear equation"
-    ],
-    "topic": [
-      "linear equation"
-    ],
-    "category": [
-      "Geometry"
-    ],
-    "style": [
-      "word"
-    ],
-    "solution": [
-      "100"
-    ]
-  },
-  {
-    "id": "B100",
-    "problem": "Simplify the expression 1+2-3?",
-    "concept": [
-    ],
-    "topic": [
-      "algebraic expression simplification"
-    ],
-    "category": [
-      "Arithmetic"
-    ],
-    "style": [
-      "mathematic"
-    ],
-    "solution": [
-      "0"
-    ]
-  },
-  {
-    "id": "B101",
-    "problem": "Simplify the expression 1+2+3?",
-    "concept": [
-    ],
-    "topic": [
-      "algebraic expression simplification"
-    ],
-    "category": [
-      "Arithmetic"
-    ],
-    "style": [
-      "mathematic"
-    ],
-    "solution": [
-      "6"
-    ]
-  },
-  {
-    "id": "C001",
     "problem": "What is the Center-Radius form of the equation of a circle with radius 8 and a center at (-4,7)?",
-    "concept": [
-      "circle",
-      "center-radius form",
-      "center",
-      "radius",
-      "algebraic expression simplification"
-    ],
-    "topic": [ "center-radius form" ],
-    "category": [ "Geometry" ],
-    "style": [ "mathematic"],
+    "semantic": ["r=8","center=(-4,7)","Circle(cr)=?"],
+    "concept": ["circle","center-radius form","center","radius","algebraic expression simplification"],    
+    "topic": ["geometry"],
     "solution": [ "(X+4)^2 + (Y-7)^2 = 64"]
   },
   {
-    "id": "C002",
-    "problem": "What is the center of the circle described by the equation ‘(X-2)^2 + (Y-3)^2 = 4’? What is the radius?",
-    "concept": [ "circle", "center", "radius", "center-radius form"],
-    "topic": [ "center-radius form"],
-    "category": [ "Geometry"],
-    "style": [ "mathematic"],
-    "solution":  [ "(2,3)", "2" ]
+    "id": "0014",
+    "problem":   "What is the center of the circle described by the equation ‘(X-2)^2 + (Y-3)^2 = 4’? What is the radius?",
+    "semantic":  ["(X-2)^2+(Y-3)^2=4","center=?","r=?"],
+    "concept":   ["circle", "center", "radius", "center-radius form"],
+    "topic":     ["geometry"],
+    "solution":  ["(2,3)", "2" ]
   },
   {
-    "id": "C003",
-    "problem": "A radio tower is located 25 miles east and 30 miles south of Lorne’s home. It emits a circle in all directions. The tower’s signal reaches all receivers within 50 miles of the tower. Using Lorne’s home as the point of origin, write an equation that describes the farther locations that the signal will reach.",
-    "concept": [ "circle", "center-radius form"],
-    "topic": [ "center-radius form"],
-    "category": [ "Geometry"],
-    "style": [ "word"],
-    "solution":  [ "(x-25)^2 + (y+30)^2 = 2500"]
+    "id": "0015",
+    "problem":  "A circle centered at (3,4) with a radius 5 passes through the point (-2,V). What is V?",
+    "semantic": ["r=5","center=(3,4)","Circle((-2,V))","V=?"],
+    "concept":  ["center", "radius", "center-radius form", "x-coordinate"],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
   },
   {
-    "id": "C004",
-    "problem": "A two-lane highway goes through a semicircular tunnel that is 14 feet high at the top. If each lane is 12 feet wide, how high is the tunnel at the edge of each lane?",
-    "concept": [ "circle", "center-radius form", "algebraic simplification", "x-coordinate" ],
-    "topic": [ "y-coordinate" ],
-    "category": [ "Geometry" ],
-    "style": [ "word" ],
-    "solution": [ "2 * sqrt(13)" ]
+    "id": "0016",
+    "problem":  "Find the equation of the line that contains the point (0,5) and is perpendicular to the line y=(1/4)x ?",
+    "semantic": ["A:y=(1/4)x","Line:B((0,5))","perpendicular(A,B)","Line(B,g)=?"],
+    "concept":  ["line", "point", "perpendicular"],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
   },
   {
-    "id": "C005",
-    "problem": "Bob lives 3 blocks north of Linda. Jane lives 3 blocks east, and 3 blocks south of Bob. Adam lives 6 blocks west of Jane. Carolyn lives 6 blocks east and 9 blocks south of Linda. Using Carolyn’s house as a point of origin, what is an equation of the circle that would pass through Bob, Jane, and Adam’s houses?",
-    "concept": [ "circle", "center-radius form", "point"],
-    "topic": [ "center-radius form"],
-    "category": [ "Geometry" ],
-    "style": [ "word"],
-    "solution": [ "(x-6)^2 + (y+9)^2 = 9"]
+    "id": "0017",
+    "problem":  "Find the equation of the line parallel to y=5x-2 and passing through the origin?",
+    "semantic": ["A:y=(1/4)x","Line:B((0,5))","perpendicular(A,B)","Line(B,g)=?"],
+    "concept":  ["line", "point", "perpendicular"],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
   },
   {
-    "id": "C006",
-    "problem": "A circle centered at (3,4) with a radius 5 passes through the point (-2,V). What is V?",
-    "concept": [ "center", "radius", "center-radius form", "x-coordinate"],
-    "topic": [ "y-coordinate"],
-    "category": [ "Geometry"],
-    "style": [ "mathematic"],
-    "solution": [ "4"]
+    "id": "0018",
+    "problem":  "Given A(2,3) and B(5,8), write an equation of a line parallel to AB containing the point P(-2,-4).",
+    "semantic": ["A(2,3)","B(5,8)","Line:AB","Line:C(P(-2,-4))","parallel(AB,C)","Line(C,g)=?"],
+    "concept":  ["line", "point", "perpendicular"],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
+  },
+  {
+    "id": "0019",
+    "problem":  "Show that the line AB defined by y=2x+3 is perpendicular to the line CD, defined by 2y+x-2=0.",
+    "semantic": ["y=2x+3","2y+x-2=0","parallel(AB,C)=?"],
+    "concept":  ["line", "perpendicular"],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
+  },
+  {
+    "id": "0020",
+    "problem":  "In the xy-plane, the graph of the equation y=3x+5 is a line that intersects the y-axis at (0,b), what is the value of b?",
+    "semantic": ["A:y=3x+5","y-axis","intersect(A,y-axis)=(0,b)?","b=?"],
+    "concept":  ["line", "y-axis", "two line intersect"],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
+  },
+  {
+    "id": "0021",
+    "problem":  "In the xy-plane, line l contains the point(0,0), and the slope of line l is 1. Line m contains the point (0,10), and l is perpendicular to m. If l and m intersect at the point (x,y), what is the value of y?",
+    "semantic": ["Line:l((0,0))","m(l)=1","Line:m((0,10))","perpendicular(l,m)", "intersect(l,m)=(x,y)", "y=?"],
+    "concept":  ["line", "y-axis", "two line intersect"],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
+  },
+  {
+    "id": "0022",
+    "problem":  "The points (3,v) and (2,0) fall on a line with a slope of 10. What is the value of v?",
+    "semantic": [""],
+    "concept":  [""],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
+  },
+  {
+    "id": "0023",
+    "problem":  "Assume a circle C’s central point is CP(-1,-1), and its radius is 3. There is a line L of which the standard form is x-y-1=0. Find the distance between the center of circle CP and line L?",
+    "semantic": [""],
+    "concept":  [""],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
+  },
+  {
+    "id": "0024",
+    "problem":  "The equation of a circle C is x^2+y^2-12x-2y+36=0. What is its center (h,k) and its radius r?",
+    "semantic": [""],
+    "concept":  [""],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
+  }, 
+  {
+    "id": "0025",
+    "problem":  "The point (1,4) is on a circle whose center is at (-2,-3). Write the standard form of the equation of the circle.",
+    "semantic": [""],
+    "concept":  [""],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
+  },
+  {
+    "id": "0026",
+    "problem":  "Find the midpoint of the line joining A(-2,2) and B(4,6).",
+    "semantic": [""],
+    "concept":  [""],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
+  },
+  {
+    "id": "0027",
+    "problem":  "Circle C has a center of (-2, 3) and a radius of 4. Does point (-4, 6) lie on circle C?",
+    "semantic": [""],
+    "concept":  [""],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
+  },
+  {
+    "id": "0028",
+    "problem":  "P(–2; 1) Q(2; 5) and R(4; –3) are the vertices of shape PQR. M is the midpoint of QR. Determine the equation of line PM.",
+    "semantic": [""],
+    "concept":  [""],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
+  },
+  {
+    "id": "0029",
+    "problem":  "A circle is centered at the origin and has a radius of 2 units. A line with a slope of 2 passes through the origin and intersects the circle in two places. Where does the line intersect the circle?",
+    "semantic": [""],
+    "concept":  [""],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
+  },
+  {
+    "id": "0030",
+    "problem":  "Assume a circle C's central point is CP(-1,-1), and its radius is 3. There is a line L of which the standard form is x-y-1=0. 1) What is the relation between C and L? 2) If they intersect at two points, what are the value of two intersect points coordinates? 3) Find the distance between the center of circle CP and line L?",
+    "semantic": [""],
+    "concept":  [""],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
+  },
+  {
+    "id": "0031",
+    "problem":  "Find the equation of the perpendicular bisector of AB if A(–6; –2) and B(3; 1)",
+    "semantic": [""],
+    "concept":  [""],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
+  },
+  {
+    "id": "0032",
+    "problem":  "Calculate the angle which the line passing through (–2; –2) and (3; 4) makes with the positive x axis.",
+    "semantic": [""],
+    "concept":  [""],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
+  },
+  {
+    "id": "0033",
+    "problem":  "Given the system of equations: x^2 + y^2 = 25 and y = 3x, a. Sketch a graph of the system to determine the number of solutions b. solve the system algebraically to find the solutions.",
+    "semantic": [""],
+    "concept":  [""],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
+  },
+  {
+    "id": "0034",
+    "problem":  "What is the length of the line segment in the x-y plane with end points at (-2,-2) and (2,3)?",
+    "semantic": [""],
+    "concept":  [""],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
+  },
+  {
+    "id": "0035",
+    "problem":  "Line l contains the points (3,1) and (4,4). If line m is a different line, parallel to line l in the same coordinate plane, what is the equation of line m?",
+    "semantic": [""],
+    "concept":  [""],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
+  }, 
+  {
+    "id": "0036",
+    "problem":  "Given 3x + y = 19 , and x + 3y = 1, find the value of 2x + 2y.",
+    "semantic": [""],
+    "concept":  [""],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
+  }, 
+  {
+    "id": "0037",
+    "problem":  "If the slope of a line is ½ and the y-intercept is 3, what is the x-intercept of the same line?",
+    "semantic": [""],
+    "concept":  [""],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
+  }, 
+  {
+    "id": "0038",
+    "problem":  "At what point does the graph of 5x + 4y = 12 intersect the y-axis?",
+    "semantic": [""],
+    "concept":  [""],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
+  }, 
+  {
+    "id": "0039",
+    "problem":  "The point (1,4) is on a circle whose center is at (-2,-3). Write the standard form of the equation of the circle.",
+    "semantic": [""],
+    "concept":  [""],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
+  }, 
+  {
+    "id": "0040",
+    "problem":  "A circle is centered at the origin and has a radius of 2 units. A line with a slope of 2 passes through the origin and intersects the circle in two places. Where does the line intersect the circle?",
+    "semantic": [""],
+    "concept":  [""],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
+  }, 
+  {
+    "id": "0041",
+    "problem":  "Assume a circle C's central point is CP(-1,-1), and its radius is 3. There is a line L of which the standard form is x-y-1=0. 1) What is the relation between C and L? 2) If they intersect at two points, what are the value of two intersect points coordinates? 3) Find the distance between the center of circle CP and line L?",
+    "semantic": [""],
+    "concept":  [""],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
+  }, 
+  {
+    "id": "0042",
+    "problem":  "The equation y = 6 is graphed on the same coordinate axes as the circle with center (4,4) and radius 3. One of the points of intersection of the line and the circle has x-coordinate 1.76. What is the x coordinate of the other point of intersection?",
+    "semantic": [""],
+    "concept":  [""],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
+  }, 
+  {
+    "id": "0043",
+    "problem":  "What positive value for k would make the following the equations of a pair of parallel lines on the same coordinate axes? y = kx – 2 and ky = 9x – 7",
+    "semantic": [""],
+    "concept":  [""],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
+  }, 
+  {
+    "id": "0044",
+    "problem":  "Find the equation of the line tangent to the circle x^2+y^2 = 18 that passes through the point (3,3).",
+    "semantic": [""],
+    "concept":  [""],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
+  }, 
+  {
+    "id": "0045",
+    "problem":  "Find the equation of the line tangent to the circle x^2+y^2 = 18 that passes through the point (6,0).",
+    "semantic": [""],
+    "concept":  [""],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
+  }, 
+  {
+    "id": "0046",
+    "problem":  "Write the equation of a circle whose diameter has endpoints (4, -1) and (-6, 7).",
+    "semantic": [""],
+    "concept":  [""],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
+  }, 
+  {
+    "id": "0047",
+    "problem":  "A circle is centered on point B. Points, A, C, and D lie on its circumference. The length of line segment AD is equal to the circle’s diameter. If angle ABC measures 96 degrees, what does angle ADC measure?",
+    "semantic": [""],
+    "concept":  [""],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
+  }, 
+  {
+    "id": "0048",
+    "problem":  "Find the radius of a circle,  if the tangent segment to the circle is of  15  units long and the endpoint of the tangent line is located in the distance of  17  units from the center of the circle.",
+    "semantic": [""],
+    "concept":  [""],
+    "topic":    ["geometry"],
+    "solution": ["TODO"]
   }
 ]

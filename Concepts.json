@@ -191,29 +191,29 @@
       "dependencies": ["point"]
     },
     {
-      "concept": "slope",
+      "concept": "line slope",
       "topic": "geometry",      
       "dependencies": ["point", "line"]
     },
     {
       "concept": "positive slope",
       "topic": "geometry",
-      "dependencies": ["slope"]
+      "dependencies": ["line slope"]
     },
     {
       "concept": "negative slope",
       "topic": "geometry",
-      "dependencies": ["slope"]
+      "dependencies": ["line slope"]
     },
     {
       "concept": "zero slope",
       "topic": "geometry",
-      "dependencies": ["slope"]
+      "dependencies": ["line slope"]
     },
     {
-      "concept": "y-intercept",
+      "concept": "line y-intercept",
       "topic": "geometry",
-      "dependencies": ["slope", "point"]
+      "dependencies": ["line slope", "point"]
     },
     {
       "concept": "positive y-intercept",

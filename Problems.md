@@ -29,3 +29,9 @@ https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-fu
 http://www.algebra.com/
 
 http://www.coolmath.com/
+
+http://www.shelovesmath.com/algebra/beginning-algebra/coordinate-system-and-graphing-lines/#SlopeInterceptFormula
+
+http://www.majortests.com/sat/problem-solving-test03
+
+http://www.wikihow.com/Use-the-Slope-Intercept-Form-(in-Algebra)

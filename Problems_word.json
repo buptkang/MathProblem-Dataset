@@ -1,120 +1,76 @@
-{
-    "id": "0009",
+[  
+  {
+    "id": "0001",
     "problem": "The amount of money that farmers in Massachusetts paid to maintain their between 1991 and 2008 is modeled by the equation P=3.53t+100, where P is the amount of money the farmers paid, in millions of dollars, and t is the year (assuming 1991 is t=0). How much money does farmers get in the year 2001?",
-    "concept": [
-      "line",
-      "line equation",
-      "x-coordinate"
-    ],
-    "topic": [
-      "y-coordinate"
-    ],
-    "category": [
-      "Geometry"
-    ],
-    "style": [
-      "hybrid"
-    ],
-    "solution": [
-      "135.3"
-    ]
+    "semantic": [""],
+    "concept": [""],
+    "topic": ["word geometry"],
+    "solution": [""]
   },
   {
-    "id": "0010",
+    "id": "0002",
     "problem": "A college bookstore charges $60 for a yearly membership. The first book is free with the membership, and any book after that costs $7.60 including tax. How much money does a student spend after buying 3 books and a yearly membership?",
-    "concept": [
-      "line",
-      "line equation",
-      "x-coordinate"
-    ],
-    "topic": [
-      "y-coordinate"
-    ],
-    "category": [
-      "Geometry"
-    ],
-    "style": [
-      "word"
-    ],
-    "solution": [
-      "75.2"
-    ]
+    "semantic": [""],
+    "concept": [""],
+    "topic": ["word geometry"],
+    "solution": [""]
   },
-  
-
-
-
- 
   {
-    "id": "0013",
+    "id": "0003",
     "problem": "As a construction manager, you are asked to build a new straight road, which crosses the point (0,0). There is another straight road already built, which can be expressed as y=2x-1. You are asked to build your road such that it will never cross this other road. Find the correct value for a and b in the following equation of your road (y = ax+b). Round any decimals to the nearest hundredth.",
-    "concept": [
-      "line",
-      "point",
-      "line equation",
-      "line perpendicular"
-    ],
-    "topic": [
-      "line coefficient A",
-      "line coefficient B"
-    ],
-    "category": [
-      "Geometry"
-    ],
-    "style": [
-      "hybrid"
-    ],
-    "solution": [
-      "2",
-      "0"
-    ]
+    "semantic": [""],
+    "concept": [""],
+    "topic": ["word geometry"],
+    "solution": [""]
   },
   {
-    "id": "0014",
+    "id": "0004",
     "problem": "Kendrick wrote a business plan for an entrepreneurship class, and now he has to make bound copies. Kendrick could use a printer who charges a setup fee of $50 and $5 for every copy printed. Another possibility is to go to the office supply store, where he could pay an up-front fee of $30 and $7 per copy. There is a certain number of copies that makes the two options equivalent in terms of cost. How much would the copies cost?",
-    "concept": [
-      "line",
-      "linear equation"
-    ],
-    "topic": [
-      "linear equation"
-    ],
-    "category": [
-      "Geometry"
-    ],
-    "style": [
-      "word"
-    ],
-    "solution": [
-      "100"
-    ]
+    "semantic": [""],
+    "concept": [""],
+    "topic": ["word geometry"],
+    "solution": [""]
   },
-  
   {
-    "id": "C003",
+    "id": "0005",
     "problem": "A radio tower is located 25 miles east and 30 miles south of Lorne’s home. It emits a circle in all directions. The tower’s signal reaches all receivers within 50 miles of the tower. Using Lorne’s home as the point of origin, write an equation that describes the farther locations that the signal will reach.",
-    "concept": [ "circle", "center-radius form"],
-    "topic": [ "center-radius form"],
-    "category": [ "Geometry"],
-    "style": [ "word"],
-    "solution":  [ "(x-25)^2 + (y+30)^2 = 2500"]
+    "semantic": [""],
+    "concept": ["circle", "center-radius form"],
+    "topic": ["word geometry"],
+    "solution": ["(x-25)^2 + (y+30)^2 = 2500"]
   },
   {
-    "id": "C004",
+    "id": "0006",
     "problem": "A two-lane highway goes through a semicircular tunnel that is 14 feet high at the top. If each lane is 12 feet wide, how high is the tunnel at the edge of each lane?",
-    "concept": [ "circle", "center-radius form", "algebraic simplification", "x-coordinate" ],
-    "topic": [ "y-coordinate" ],
-    "category": [ "Geometry" ],
-    "style": [ "word" ],
-    "solution": [ "2 * sqrt(13)" ]
+    "semantic": [""],
+    "concept": [""],
+    "topic": ["word geometry"],
+    "solution": ["2 * sqrt(13)"]
   },
   {
-    "id": "C005",
+    "id": "0007",
     "problem": "Bob lives 3 blocks north of Linda. Jane lives 3 blocks east, and 3 blocks south of Bob. Adam lives 6 blocks west of Jane. Carolyn lives 6 blocks east and 9 blocks south of Linda. Using Carolyn’s house as a point of origin, what is an equation of the circle that would pass through Bob, Jane, and Adam’s houses?",
-    "concept": [ "circle", "center-radius form", "point"],
-    "topic": [ "center-radius form"],
-    "category": [ "Geometry" ],
-    "style": [ "word"],
-    "solution": [ "(x-6)^2 + (y+9)^2 = 9"]
+    "semantic": [""],
+    "concept": ["circle", "center-radius form", "point"],
+    "topic": ["word geometry"],
+    "solution": ["(x-6)^2 + (y+9)^2 = 9"]
   },
-  
+  {
+    "id": "",
+    "problem": "",
+    "semantic": [""],
+    "concept": [""],
+    "topic": ["word geometry"],
+    "solution": [""]
+  },
+  {
+    "id": "",
+    "problem": "",
+    "semantic": [""],
+    "concept": [""],
+    "topic": ["word geometry"],
+    "solution": [""]
+  }
+
+
+]

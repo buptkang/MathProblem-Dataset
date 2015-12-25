@@ -12,30 +12,56 @@ There are **three dimensions of data**:
 
 1. Math problems: Problems.json
 
-2. Math concepts: Topics.json
+2. Math concepts: Topics.json + Concepts.json + ErrorConcepts.json
 
 3. Math instructions (scaffoldings) per problem: Instructions.json
 
 ___
 
+***Dimension 1***: 
+
 Format of Problems.json:
 
-| Column Name  | Column Type  |         Column Explanation       |
-| -------------|--------------|----------------------------------|
-|      id      |    string    |       GUID                       |
-|     problem  |    string    |     Text Problem                 |
-|    concept   |    array     |   Embed Concept in the problem   |
-|     topic    |    array     |   Embed Questions of the problem |
-|    category  |  enumeration |   Geometry, Arithmetic, Algebra  |
-|      style   |  enumeration |   mathematic, hybrid, word       |
-|     solution |    array     |   maps to number of topic column |
+| Column Name  | Column Type  |                       Column Explanation                        |
+| -------------|--------------|-----------------------------------------------------------------|
+|      id      |    string    |                           GUID                                  |
+|     problem  |    string    |                         Text Problem                            |
+|     semantic |    array     |     Annotated Math Semantic of natural language math problem    |
+|    concept   |    array     |       Annotated Concepts covered in the problem (Concepts.json) |
+|     topic    |    array     |       Annotated Math Problem Topic (Topics.json)                |
+|     solution |    array     |                   Annotate problem solution                     |
 
 ___
+
+***Dimension 2***:
 
 Format of Topics.json:
-(Josh TODO)
+
+| Column Name  | Column Type  |                   Column Explanation                            |
+| -------------|--------------|-----------------------------------------------------------------|
+|   topic      |    string    |                     Topic Name                                  |
+| dependencies |    array     |                   Dependent Topics                              |
+
+
+Format of Concepts.json:
+
+| Column Name  | Column Type  |                   Column Explanation                            |
+| -------------|--------------|-----------------------------------------------------------------|
+|   concept    |    string    |                     Concept Name                                |
+|   topic      |    string    |                     Topic Name                                  |
+| dependencies |    array     |                   Dependent Concepts                            |
+
+
+Format of ErrorConcepts.json:
+
+| Column Name     | Column Type  |                   Column Explanation                            |
+| ----------------|--------------|-----------------------------------------------------------------|
+|   error-concept |    string    |                     Topic Name                                  |
+|   concept       |    string    |                     Concept Name                                |
 
 ___
+
+***Dimension 3***:
 
 Format of Scaffolds.json:
 

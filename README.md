@@ -28,7 +28,7 @@ Format of Problems.json:
 |     problem  |    string    |                         Text Problem                            |
 |     semantic |    array     |     Annotated Math Semantic of natural language math problem    |
 |    concept   |    array     |       Annotated Concepts covered in the problem (Concepts.json) |
-|     topic    |    array     |       Annotated Math Problem Topic (Topics.json)                |
+|     topic    |    string    |       Annotated Math Problem Topic (Topics.json)                |
 |     solution |    array     |                   Annotate problem solution                     |
 
 ___

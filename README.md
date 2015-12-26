@@ -78,16 +78,8 @@ Format of Scaffolds.json:
 |   id         |    string     |       unique identifier            |
 |   type       |    string     |   summary,meta,scaffold,solution   |
 |   text       |    string     |   embed text of scaffold step      |
-| dependencies | list of list  | map all potential dependency* sets |
+| dependencies | list of list  | map all potential dependency step  |
 |concepts-used |list of strings| embed all topics employed by step  |
-
-
-*
-
-| Column Name  |    Column Type   |                                               Column Explanation                                                          |
-| -------------|------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| dependency   | list of strings  | embed combination of step-ids that must are used in this set (i.e. must have already been completed for this step to take place) |
-
 
 ___
 

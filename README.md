@@ -80,6 +80,8 @@ Format of Scaffolds.json:
 |   text       |    string     |   embed text of scaffold step                                   |
 | dependencies | list of list  | map all potential dependency step                               |
 |concepts-used |list of strings| embed all topics employed by step                               |
+|  procedurals |list of steps  | recursively add steps into the current step                     |
+
 
 ___
 

@@ -73,13 +73,13 @@ Format of Scaffolds.json:
 
 "step" record:
 
-| Column Name  | Column Type   |         Column Explanation         |
-| -------------|---------------|------------------------------------|
-|   id         |    string     |       unique identifier            |
-|   type       |    string     |   summary,meta,scaffold,solution   |
-|   text       |    string     |   embed text of scaffold step      |
-| dependencies | list of list  | map all potential dependency step  |
-|concepts-used |list of strings| embed all topics employed by step  |
+| Column Name  | Column Type   |         Column Explanation                                      |
+| -------------|---------------|---------------------------------------------------------------- |
+|   id         |    string     |       unique identifier                                         |
+|   type       |    string     |   summary,meta,concept-scaffold, procedural-scaffold,solution   |
+|   text       |    string     |   embed text of scaffold step                                   |
+| dependencies | list of list  | map all potential dependency step                               |
+|concepts-used |list of strings| embed all topics employed by step                               |
 
 ___
 

@@ -374,13 +374,21 @@
     "concept":  [""],
     "topic":    ["geometry"],
     "solution": ["TODO"]
-  }, 
+  },
   {
     "id": "0048",
-    "problem":  "Find the radius of a circle,  if the tangent segment to the circle is of  15  units long and the endpoint of the tangent line is located in the distance of  17  units from the center of the circle.",
-    "semantic": [""],
-    "concept":  [""],
-    "topic":    ["geometry"],
-    "solution": ["TODO"]
+    "problem": "Find the radius of a circle,  if the tangent segment to the circle is of  15  units long and the endpoint of the tangent line is located in the distance of  17  units from the center of the circle.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0049",
+    "problem": "TODO From Scaffolding",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
   }
 ]

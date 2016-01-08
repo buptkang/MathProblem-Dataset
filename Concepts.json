@@ -27,7 +27,7 @@
     },
     {
       "concept": "arithmetic subtraction",
-      "topic": "arithmetic",      
+      "topic": "arithmetic",
       "dependencies": ["arithmetic addition"]
     },
     {
@@ -151,7 +151,7 @@
       "topic": "algebra",
       "dependencies": ["solving algebraic single linear equation"]
     },
-    
+
     {
       "concept": "substitution to solve two algebraic linear equations",
       "topic": "algebra",
@@ -192,7 +192,7 @@
     },
     {
       "concept": "line slope",
-      "topic": "geometry",      
+      "topic": "geometry",
       "dependencies": ["point", "line"]
     },
     {
@@ -246,7 +246,7 @@
       "topic": "geometry",
       "algebra": true,
       "dependencies": ["line equation"]
-    },    
+    },
     {
       "concept": "line standard form",
       "topic": "geometry",
@@ -342,5 +342,6 @@
       "topic": "geometry",
       "algebra": true,
       "dependencies": ["graphing algebraic single linear equation"]
-    }
+    },
+
 ]

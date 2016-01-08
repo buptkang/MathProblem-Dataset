@@ -84,7 +84,7 @@
     "problem": "Simplify the expression 1+2-3?",
     "semantic": ["1+2-3=?"],
     "concept": ["arithmetic subtraction"],
-    "topic": ["arithmetic"],   
+    "topic": ["arithmetic"],
     "solution": ["0"]
   },
   {
@@ -99,7 +99,7 @@
     "id": "0013",
     "problem": "What is the Center-Radius form of the equation of a circle with radius 8 and a center at (-4,7)?",
     "semantic": ["r=8","center=(-4,7)","Circle(cr)=?"],
-    "concept": ["circle","center-radius form","center","radius","algebraic expression simplification"],    
+    "concept": ["circle","center-radius form","center","radius","algebraic expression simplification"],
     "topic": ["geometry"],
     "solution": [ "(X+4)^2 + (Y-7)^2 = 64"]
   },
@@ -190,7 +190,7 @@
     "concept":  [""],
     "topic":    ["geometry"],
     "solution": ["TODO"]
-  }, 
+  },
   {
     "id": "0025",
     "problem":  "The point (1,4) is on a circle whose center is at (-2,-3). Write the standard form of the equation of the circle.",
@@ -278,7 +278,7 @@
     "concept":  [""],
     "topic":    ["geometry"],
     "solution": ["TODO"]
-  }, 
+  },
   {
     "id": "0036",
     "problem":  "Given 3x + y = 19 , and x + 3y = 1, find the value of 2x + 2y.",
@@ -286,7 +286,7 @@
     "concept":  [""],
     "topic":    ["geometry"],
     "solution": ["TODO"]
-  }, 
+  },
   {
     "id": "0037",
     "problem":  "If the slope of a line is ½ and the y-intercept is 3, what is the x-intercept of the same line?",
@@ -294,7 +294,7 @@
     "concept":  [""],
     "topic":    ["geometry"],
     "solution": ["TODO"]
-  }, 
+  },
   {
     "id": "0038",
     "problem":  "At what point does the graph of 5x + 4y = 12 intersect the y-axis?",
@@ -302,7 +302,7 @@
     "concept":  [""],
     "topic":    ["geometry"],
     "solution": ["TODO"]
-  }, 
+  },
   {
     "id": "0039",
     "problem":  "The point (1,4) is on a circle whose center is at (-2,-3). Write the standard form of the equation of the circle.",
@@ -310,7 +310,7 @@
     "concept":  [""],
     "topic":    ["geometry"],
     "solution": ["TODO"]
-  }, 
+  },
   {
     "id": "0040",
     "problem":  "A circle is centered at the origin and has a radius of 2 units. A line with a slope of 2 passes through the origin and intersects the circle in two places. Where does the line intersect the circle?",
@@ -318,7 +318,7 @@
     "concept":  [""],
     "topic":    ["geometry"],
     "solution": ["TODO"]
-  }, 
+  },
   {
     "id": "0041",
     "problem":  "Assume a circle C's central point is CP(-1,-1), and its radius is 3. There is a line L of which the standard form is x-y-1=0. 1) What is the relation between C and L? 2) If they intersect at two points, what are the value of two intersect points coordinates? 3) Find the distance between the center of circle CP and line L?",
@@ -326,7 +326,7 @@
     "concept":  [""],
     "topic":    ["geometry"],
     "solution": ["TODO"]
-  }, 
+  },
   {
     "id": "0042",
     "problem":  "The equation y = 6 is graphed on the same coordinate axes as the circle with center (4,4) and radius 3. One of the points of intersection of the line and the circle has x-coordinate 1.76. What is the x coordinate of the other point of intersection?",
@@ -334,7 +334,7 @@
     "concept":  [""],
     "topic":    ["geometry"],
     "solution": ["TODO"]
-  }, 
+  },
   {
     "id": "0043",
     "problem":  "What positive value for k would make the following the equations of a pair of parallel lines on the same coordinate axes? y = kx – 2 and ky = 9x – 7",
@@ -342,7 +342,7 @@
     "concept":  [""],
     "topic":    ["geometry"],
     "solution": ["TODO"]
-  }, 
+  },
   {
     "id": "0044",
     "problem":  "Find the equation of the line tangent to the circle x^2+y^2 = 18 that passes through the point (3,3).",
@@ -350,7 +350,7 @@
     "concept":  [""],
     "topic":    ["geometry"],
     "solution": ["TODO"]
-  }, 
+  },
   {
     "id": "0045",
     "problem":  "Find the equation of the line tangent to the circle x^2+y^2 = 18 that passes through the point (6,0).",
@@ -358,7 +358,7 @@
     "concept":  [""],
     "topic":    ["geometry"],
     "solution": ["TODO"]
-  }, 
+  },
   {
     "id": "0046",
     "problem":  "Write the equation of a circle whose diameter has endpoints (4, -1) and (-6, 7).",
@@ -366,7 +366,7 @@
     "concept":  [""],
     "topic":    ["geometry"],
     "solution": ["TODO"]
-  }, 
+  },
   {
     "id": "0047",
     "problem":  "A circle is centered on point B. Points, A, C, and D lie on its circumference. The length of line segment AD is equal to the circle’s diameter. If angle ABC measures 96 degrees, what does angle ADC measure?",
@@ -385,7 +385,1104 @@
   },
   {
     "id": "0049",
-    "problem": "TODO From Scaffolding",
+    "problem": "The point (-1,-5) is equidistant from the lines 3x-4y-2=0 and 3x-4y+k=0, where k can not equal -2. Find the value of k.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0050",
+    "problem": "The line h contains the points (6,-2) and (-4,10). The equation of the line k is ax+6y+12=0 and k is perpendicular to h. Find the value of the real number a.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0051",
+    "problem": "Find the equation of the line parallel to 2x+5y=0 and passing through the mid-point of the line segment joining A(2,7) and B(-4,1).",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0052",
+    "problem": "The angle from the line through (-1,y) and (4,-7) to the line through (4,2) and (-1,-9) is 135 degrees. Find y.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0053",
+    "problem": "What is the perimeter of an isosceles trapezium with a height of 6 cm and two parallel sides of 15 cm and 7 cm ?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0054",
+    "problem": "The length of a rectangle is 3 more than twice the width. If the perimeter is 126 inches, find the width of the rectangle.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0055",
+    "problem": "The points A(3,4), B(-6,-2) and C(5,1)are the vertices of a triangle on a graphic designers template. Find the equation of the medin of triangle ABC from A(3,4).",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0056",
+    "problem": "The length of a rectangle is 2 in. more than twice its width. If the perimeter of the rectangle is 34 inch, find the dimensions of the rectangle.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0057",
+    "problem": "Find the equation of a line that is parallel to the line whose equation is x+2y=6 and whose y-intercept is -1.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0058",
+    "problem": "Find the equation of the set of all points such that the sum of the distances of P(x,y) from (0,-3) and (0,3) is equal to 10.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0059",
+    "problem": "Find the equation of the set of all points equidistant from the x axis and (4,0).",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0060",
+    "problem": "Find the slope of any line perpendicular to the line through points (0,5) and (-3,-4).",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0061",
+    "problem": "Find the value of x so that the line containing points at (x,2) and (-4, 5) is perpendicular to the line containing points at (4,8) and (2,-1).",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0062",
+    "problem": "The perimeter of a rectangle is 208 inches. The length exceeds the width by 32 inches. Find the length and the width.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0063",
+    "problem": "If D is the midpoint of line AC and C is the midpoint of line AB, and AD is 3 cm., what is the length of AB?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0064",
+    "problem": "The line passing through (7, y) and (1,0) is parallel to the line joining (4,4) and (-2,1). Find y.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0065",
+    "problem": "Lines p and q are parallel. The slope of p is 5 and the slope of q is 10/v. What is v?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0066",
+    "problem": "Find the equation of the line passing through (-1, 2) and perpendicular to y = 3x + 5.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0067",
+    "problem": "In the figure above , line intersects the x-axis at x=-2 and the y-axis at y=-3. If line m passes through the origin and is perpendicular to line, what is the slope of line m? ",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0068",
+    "problem": "Write the equation of a line that is perpendicular to y=-5x-4 and passes through (-35, 10).",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0069",
+    "problem": "Give the equation of the line that goes through the point (0,5) and is parallel to the y-axis.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0070",
+    "problem": "Write an equation for the line parallel to AB 3x+2y12 that contains point C(6,-2).",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0071",
+    "problem": "Find the point (o,b) on the y-axis that is equidistant from the points (1,1) and (2,-1).",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0072",
+    "problem": "Find the point (0, b) on the y-axis that is equidistant from the points (5,5) and (6,-5).",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0073",
+    "problem": "If line P contains points A (–1, 4) and B (3, –5), line q is parallel to line P and line r is perpendicular to line Q, what is the slope of line R?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0074",
+    "problem": "What is the equation in point-slope form for the line parallel to y = –6x + 1 that contains J(–6, 8)?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0075",
+    "problem": "Write an equation of the line that passes through the point at (4,4) and is perpendicular to the line whose equation is 2x+y=7.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0076",
+    "problem": "One radius of a circle has endpoints D(2,4) and E(-1,2). a)Find a possible endpoint for the diameter that contains this radius. b) Explain why there are two possible answers in part a)",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0077",
+    "problem": "AB passes through the points (1, 3) and (3, 17). If CD is perpendicular to AB, what is the slope of CD?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0078",
+    "problem": "Find an equation for the line perpendicular to the line 4x-4y=-9, having the same y-intercept as -7x+2y=-3.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0079",
+    "problem": "Find an equation of the line that satisfies the given conditionsThrough points of (−6, −14); perpendicular to the line passing through (−3, −2) and (1, −4)",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0080",
+    "problem": "Find the value of x so that the line passing through (-2, 7) and (x, 2) has a slope of -1/3.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0081",
+    "problem": "The length of a rectangle is 3 meters more than the width. The perimeter is 26 meters. What are the dimensions of the rectangle?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0082",
+    "problem": "What are the equations of the lines perpendicular to the line x + 7y + 8 = 0 and passing at a distance of 2 units from the origin?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0083",
+    "problem": "What are the two points on the line 2x+3y+4=0 which is at distance 2 from line 3x+4y-6=0?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0084",
+    "problem": "The coordinates of A are (4,5) and the coordinates of B are (10,y). If the midpoint of AB is (7,-2), find the value of y.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0085",
+    "problem": "Find the angles from the line through the points a (4,0) and b (0,7) to the through the points c (4,5) and d (1,10).",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0086",
+    "problem": "Find the equation of the line through the point of intersection of 2x+3y=5 and 3x-y=2,and which is parallel to 4y-x=14.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0087",
+    "problem": "An equilateral triangle has its centroid at origin and one side is on the line x+y=1. Find the equations of other sides.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0088",
+    "problem": "Determine the equation of the line through A(-5,1) such that the distance from B(3, -1) and C(-3, 2) to that line is equal.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0089",
+    "problem": "Graph a line that passes through H(8,5) and is perpendicular to AG with A(-5,6) and G(-1,-2).",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0090",
+    "problem": "Supose the diameter of a circle is 50 feet long and has a chord of 48 feet long. What is the distance from the center of the circle to the chord.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0091",
+    "problem": "AB is a chord of a circle with centre O and is 40cm long. OD is drawn perpendicular to AB. If OD is 4.5cm in length, find the length of the radius of the circle. (all reasoning must be shown).",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0092",
+    "problem": "A triangle with sides of 5, 12 and 13 has both an inscribed and a circumscribed circle. What is the distance between the centers of those circles.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0093",
+    "problem": "Two parallel chords 16 centimeters and 30 centimeters long are 23 centimeters apart. Find the radius of the circle.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0094",
+    "problem": "Two parallel chords 16 cm and 30 cm long are 23cm apart. What is the radius of the circle?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0095",
+    "problem": "Find the slope of the line tangent to a circle with center o at (5,3) at point B (-2,5).",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0096",
+    "problem": "A square of side length 10cm is inscribed in a circle. Calculate the diameter of the circle.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0097",
+    "problem": "A circle has a diameter of 20cm.A chord is 6cm from the center of the circle. How long is the chord?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0098",
+    "problem": "Given line segment AB with midpoint M(5,-1) and endpoint B(8,2), what are the coordinates of A?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0099",
+    "problem": "The diameter of circle AOB is 12, Triangle ABC is inscribed in the circle, angle A = 45. In cm squared what is the area of Triangle ABC.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0100",
+    "problem": "",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0101",
+    "problem": "A moving circle is tangent to the x-axis and to the circle of radius one with center at (2,-6). Find the equation of the locus of the center of the moving circle.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0102",
+    "problem": "Find the perimeter of the equilateral traiangle inscribed in a circle of radius 20.0 inches.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0103",
+    "problem": "The circle is tangent to the y-axis and has its center at (-8,-7). Write an equation for the circle.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0104",
+    "problem": "A diameter of a circle has endpoints at (-1,3) and (-1,-3) Find the area of the circle and please also graph it.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0105",
+    "problem": "Find the radius of the circle touching the straight lines x-2y-1 = 0 and 3x-6y+7 = 0.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0106",
+    "problem": "Circle U passes through points A(6,8), B(16, -4) and C(10, 8). Find the coordinates of the center of the circle.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0107",
+    "problem": "What is the diameter of a circle whose circumference is equal to 20 inches.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0108",
+    "problem": "The center of a circle lies on the line x + y = 1 and passes through the origin and the point (4,2). what is the equation of the circle.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0109",
+    "problem": "A circle is centered at the origin and contains the point (3,4). What is the circumference of the circle in terms of pie?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0110",
+    "problem": "The endpoints of a diameter of a circle are (-4,7) and (2, -1). What is the equation of the circle in standard form?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0111",
+    "problem": "If line AC is tangent to circle O at point B, OC=65 and BC=60,What is the area of the square that would circumscribe the circle.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0112",
+    "problem": "Find a general form of an equation of the line that is tangent to the circle x^2+y^2=100 at the point P(8,6).",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0113",
+    "problem": "Suppose a chord of a circle is 12 millimeters long and 3 millimeters from the center of the circle. What is the area of the circle?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0114",
+    "problem": "Write an equation for a circle with center at (5,-2) and diameter of 8 centimeters.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0115",
+    "problem": "Two spheres, one with radius 7 and one with radius 4, are tangent to each other. If P is any point on one sphere and Q is any point on the other sphere, what is the maximum possible length of PQ ?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0116",
+    "problem": "A sphere of radius r inside a cube touches each one of the six sides of the cube. What is the volume of the cube, in terms of r ?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0117",
+    "problem": "In the coordinate plane, the points F(-2,1), G(1,4),and H(4,1) lie on a circle with center P. What are the coordinates of point P ?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0118",
+    "problem": "R is the midpoint of line segment , PT and Q is the midpoint of line segment PR. If S is a point between R and T such that the length of segment QS is 10 and the length of segment PS is 19, what is the length of segment ST ?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0119",
+    "problem": "In the xy-coordinate plane above, line l contains the points (0,0) and (1,2). If line m (not shown) contains the point (0,0) and is perpendicular to l, what is an equation of m ?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0120",
+    "problem": "Three parallel lines in a plane are intersected by a fourth line, forming twelve angles. If one of the angles has measure 28˚, how many of the other eleven angles have measure 28 degree?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0121",
+    "problem": "The length of a rectangular rug is 2 feet more than its width. If the length of the rug is 8 feet, what is the area of the rug in square feet?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0122",
+    "problem": "A triangle has a perimeter of 13 and one side of length 3. If the lengths of the other two sides are equal, what is the length of each of them?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0123",
+    "problem": "The circle has an area of 25pi and is divided into 8 congruent regions. What is the perimeter of one of these regions?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0124",
+    "problem": "Point P is the reflection of point A(3,1) through the line y = x. What is the slope of the line that passes through points A and P ?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0125",
+    "problem": "If the slope of the line that passes through the points (a,0) and (-1,2) is 0.5, what is the value of a?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0126",
+    "problem": "If the perimeter of rectangle above is 72, what is the value of x?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0127",
+    "problem": "Points P, Q, R and S lies on a line in that order. Q is the midpoint of PR, if the length of RS is 3 and the length of PS is 13, what is the length of QR?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+
+  {
+    "id": "0128",
+    "problem": "In the xy-plane, y=2x+3 and y=mx+b are parallel lines. What is the value of m?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0129",
+    "problem": "In the xy-coordinate plane, the distance from point P to point (1,2) is 5. If the y-coordinate of P is 2, what is the x-coordinate of P?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0130",
+    "problem": "In the triangle PQR, the length of side QR is 12 and the length of side PR is 20. What is the greatest possible integer length of side PQ?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0131",
+    "problem": "Two of three angles of a triangle measure 35° and 65°, respectively. What is the measure, in degrees, of the third angle of the triangle?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0132",
+    "problem": "Two of three angles of a triangle are equal. What is the measure of each one, in degrees, if the measure of the third angle is 70 degree.?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0133",
+    "problem": "The ratio of the width of a rectangle to its length is 1 to 3. If the perimeter of the rectangle is 40, what is the width of the rectangle?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0134",
+    "problem": "If the area of the triangle is 36 and its base is 9, what is the length of the altitude to that base?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0135",
+    "problem": "If the slope of a line is 0.5 and the y-intercept is 3, what is the x-intercept of the same line?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0136",
+    "problem": "What is the equation of a line passing through the origin and parallel to the line 2x – y = 5?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0137",
+    "problem": "The point (14, 14) is the center of the circle, and (2, 9) is a point on the circle what is the length of the diameter of the circle?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0138",
+    "problem": "A square has the same area of a right triangle with sides of lengths 6,8,10. What is the length of one side of a square?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0139",
+    "problem": "A rectangle of width 6 has a diagonal of length 10. What is the perimeter of the rectangle?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0140",
+    "problem": "The perimeter of an isosceles triangle is 24 inches. If the base measures 10 inches, what is the length of each of the other two sides?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0141",
+    "problem": "In the coordinate plane, what is the midpoint of the line segment with endpoints at (3, 4) and (0,0)?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0142",
+    "problem": "If the circle with center O has a diameter of 9, then what is the area of the circle with center O?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0143",
+    "problem": "A circle has an area of π square centimeters. What is the circumference of the circle?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0144",
+    "problem": "Write an equation for a circle with center at (5,-2) and diameter of 8 centimeters.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0145",
+    "problem": "A, B and C are points on circle O such that triangle ABC is equilateral. If the radius of the circle is 6, what is the perimeter of triangle ABC?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0146",
+    "problem": "What is the radius and the center for a circle with the following equation: (x+4)^2+y^2=37.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0147",
+    "problem": "An circle is centered at the point (-3,2) and has a radius of length 7. what is the equation?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0148",
+    "problem": "There is a circle with a 16 inch chord. The midpoint of the chord is 6 inches from the center of the circle. What is the length of the radius of the circle?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0149",
+    "problem": "Two circles intersect and have a common chord that is 16cm long . The centers are 21cm apart . if the radius of one circle is 10cm ,find the radius of the other circle.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0150",
+    "problem": "An isosceles triangle, whose legs are each 13, is inscribed in a circle. if the altitude to the base of the triangle is 5, find the radius of the circle.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0151",
+    "problem": "Find the equation of the circle (standard form) with center at (3,-4) and passing through (-1,-4).",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0152",
+    "problem": "A circle is centered at the origin and contains the point (3,4). What is the circumference of the circle in terms of pi?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0153",
+    "problem": "In circle O, radius OC is 5cm. Chord AB is 8cm and is perpendicular to OC at point P. What is the length of OP in centimeters?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0154",
+    "problem": "If the endpoints of a circle's diameter are (6,2) and (0,–6), what is the area of the circle?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0155",
+    "problem": "The point (1,-1) lies on the circle whose equation is x2 + 4x +y2 - 6y = k. Find the value of k, the center and the radius of the circle.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+   {
+    "id": "0156",
+    "problem": "Find the equation of the circle that is tangent to both the x-axis and the y-axis and the distance from the origin to its center is 8 units.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0157",
+    "problem": "Find the equation of the circle. Touching the line 4x-3y=28 at (4,4) and passing through (-3,-5).",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0158",
+    "problem": "Determine the equation of the circle whose center is at (4,5) and tangent to the circle whose equation is x^2+y^2+4x+6y-23=0.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+   {
+    "id": "0159",
+    "problem": "If (3,-2) lies on the circle with center (-1,1) then what is the equation of the circle?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+   {
+    "id": "0160",
+    "problem": "Find the equation of the circle with center on x+y=4 and 5x+2y+1=0 and having a radius of 3.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0161",
+    "problem": "Determine the equation of the line through the center of the circle that is perpendicular to the diameter with endpoints at (4,2) and (4,-8). It needs to be in slop-intercept form.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0162",
+    "problem": "Write an equation of a circle tangent to the lines x=2 and x=12 and passes through the point (4,0).",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0163",
+    "problem": "Points (1, 5) and (-7, 9) are endpoints of the diameter of a circle. What is the center of the circle?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+   {
+    "id": "0164",
+    "problem": "Line segment AB intersects line segment ED in the middle at the point C If DC=6+x and CE=2x+1, find the value of x.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+   {
+    "id": "0165",
+    "problem": "Find the equation of the circle if it is tangent to the line x+y=2 at point (4,-2) and the center at x-axis.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+   {
+    "id": "0166",
+    "problem": "If P is a point on the circle x2+y2=9 and Q is a point on the line 7x+y+3=0 and the line is perpendicular bisector of line PQ, find the coordinet of P.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0167",
+    "problem": "What is the equation of a circle touching the lines x-3y-11=0 and 3x-y-9=0 and having its center on the line x-2y+19=0 ?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0168",
+    "problem": "Find the equation of the circle tangent to the line 4x-3y+12=0 at the point (-3,0) and also tangent to the line 3x=4y-16=0 at the point (4,1).",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0169",
+    "problem": "Determine the equation of the order through (-2,5),tangent to the lines 3x-4y-19=0 and 4x+3y-17=0.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0170",
+    "problem": "On the x-y plane (3,2) and(13,2) are the coordinates of two points on a circle. if the center of the circle is (a,2) what is the value of a?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0171",
+    "problem": "Graph the circle with the center (0,-1) that passes through (-6,-1). Find the area in terms of 3.14 and to the nearest tenth.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+   {
+    "id": "0172",
+    "problem": "A circle has its center on the line 3x-2y-22=0 and tangent to the y-axis at (0,1). Find its equation.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0173",
+    "problem": "Point C is located at the origin and is the center of a circle. Line l is tangent to the circle containing C at (-4,3) What is the slope of line l and write an equation for line l?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0174",
+    "problem": "The center of a circle lies on the x-axis and passes through the points (4,5) and (-2,3). Find the equation of the circle in the form x^2+y^2+2gx+2fy+c=0.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0175",
+    "problem": "A circle has its center at (-4, -2) and is tangent to the line 3x+4y-5=0. What is the area of the circle in sq. units?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0176",
+    "problem": "Find the equation of a circle with center of origin, and tangent to the line 4x+3y=10.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0177",
+    "problem": "A circle has its center at (6,7) and passes through (1,4). A second circle is tangent to the first circle at (1,4) and has the same area. What are coordinates of the center of the second circle?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0178",
+    "problem": "Give the standard form of the circle through (-1,1) and (1,3) with center on the x-axis.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0179",
+    "problem": "The distance between the centeres of two circles with radii 9cm and 16cm is 25cm. What is the length of the segment of the tangent between them?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0180",
+    "problem": "A circle has a center (3,5). the point (3,8) is on the circle. What is the circumference of the circle to the nearest unit?",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0181",
+    "problem": "Write an equation of the circle with a radius of 6 units and is tangent to the line y=1 at (10,1).",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0182",
+    "problem": "Find the equation of circle passing through the points of intersection of the lines x + 3y=0 and 2x- 7y = 0 and whose center is point of intersection lines x + y +1=0 and x-2y +4=0.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0183",
+    "problem": "The endpoints of the diameter of a circle have coordinates R(-8,2) and S(10,-4). Find the coordinate of the center of the circle.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0184",
+    "problem": "Find the distance (rounded to the nearest thousandth) from the point (-5,-2) to the line 3x+y=8. The distance from a point to a line is the perpendicular distance.",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0185",
+    "problem": "Find the point on the y-axis that is equidistant from (5,1) and (-3,-1).",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
+  },
+  {
+    "id": "0186",
+    "problem": "Write an equation of the line that passes through the point (4,4) and is perpendicular to the line whose equation is 2x + y = 7.",
     "semantic": [ "" ],
     "concept": [ "" ],
     "topic": [ "geometry" ],

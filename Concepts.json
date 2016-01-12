@@ -165,9 +165,23 @@
     {
       "concept": "solving two algebraic linear system",
       "topic": "algebra",
-      "dependencies": ["graphing of two algebraic linear equations", "substitution to solve two algebraic linear equations", "ellimination to solve two algebraic linear equations"]
+      "dependencies": ["graphing two algebraic linear equations", "substitution to solve two algebraic linear equations", "ellimination to solve two algebraic linear equations"]
     },
-
+    {
+      "concept": "graphing algebraic single linear equation",
+      "topic": "algebra",
+      "dependencies": ["solving algebraic single linear equation"]
+    },
+    {
+      "concept": "graphing algebraic single quadratic equation",
+      "topic": "algebra",
+      "dependencies": ["solving algebraic single quadratic equation"]
+    },
+    {
+      "concept": "graphing two algebraic linear equations",
+      "topic": "algebra",
+      "dependencies": ["graphing algebraic single linear equation"]
+    },
 
 
     {
@@ -238,31 +252,26 @@
     {
       "concept": "line equation",
       "topic": "geometry",
-      "algebra": true,
       "dependencies": ["line"]
     },
     {
       "concept": "line coefficient",
       "topic": "geometry",
-      "algebra": true,
       "dependencies": ["line equation"]
     },
     {
       "concept": "line standard form",
       "topic": "geometry",
-      "algebra" : true,
       "dependencies": ["line coefficient", "line equation"]
     },
     {
-      "concept": "point slope form",
+      "concept": "line point slope form",
       "topic": "geometry",
-      "algebra": true,
       "dependencies": ["line coefficient", "line equation"]
     },
     {
-      "concept": "slope intercept form",
+      "concept": "line slope intercept form",
       "topic": "geometry",
-      "algebra": true,
       "dependencies": ["line coefficient", "line equation"]
     },
     {
@@ -281,22 +290,20 @@
       "dependencies": [ "line", "point" ]
     },
     {
-      "concept": "line segment distance",
-      "topic": "geometry",
-      "dependencies": [ "line segment"]
-    },
-    {
-      "concept": "distance function",
-      "topic": "geometry",
-      "algebra": true,
-      "dependencies": [ "line segment distance"]
-    },
-    {
       "concept": "Pythagorean theorem",
       "topic": "geometry",
-      "algebra": true,
-      "dependencies": ["distance function"]
+      "dependencies": [""]
     },
+    {
+      "concept": "distance",
+      "topic": "geometry",
+      "dependencies": [ "Pythagorean theorem"]
+    },    
+    {
+      "concept": "distance between two points",
+      "topic": "geometry",
+      "dependencies": [ "line segment", "distance"]
+    },   
     {
       "concept": "mid-point",
       "topic": "geometry",
@@ -305,43 +312,116 @@
     {
       "concept": "mid-point equation",
       "topic": "geometry",
-      "algebra": true,
       "dependencies": ["mid-point"]
+    },
+    {
+      "concept": "two lines intersect",
+      "topic": "geometry",
+      "dependencies": ["line"]
     },
     {
       "concept": "two line parallel",
       "components": [ "line" ],
-      "related": [ "slope" ]
-    },
-    {
-      "concept": "two line intersect",
-      "topic": "geometry",
-      "algebra": true,
-      "dependencies": ["line"]
-    },
+      "dependencies": ["two lines intersect","line slope"]
+    }, 
     {
       "concept": "two line perpendicular",
       "topic": "geometry",
-      "algebra": true,
       "dependencies": ["line", "two line intersect"]
+    },    
+    {
+      "concept": "degrees",
+      "topic": [ "geometry" ],
+      "dependencies": [ ]
     },
     {
-      "concept": "graphing algebraic single linear equation",
-      "topic": "geometry",
-      "algebra": true,
-      "dependencies": ["solving algebraic single linear equation"]
+      "concept": "pi",
+      "topic": [ "geometry" ],
+      "dependencies": [ ]
     },
     {
-      "concept": "graphing algebraic single quadratic equation",
-      "topic": "geometry",
-       "algebra": true,
-      "dependencies": ["solving algebraic single quadratic equation"]
+      "concept": "radians",
+      "topic": [ "geometry" ],
+      "dependencies":  [ "pi"]
     },
     {
-      "concept": "graphing of two algebraic linear equations",
-      "topic": "geometry",
-      "algebra": true,
-      "dependencies": ["graphing algebraic single linear equation"]
+      "concept": "angle size",
+      "topic": [ "geometry" ],
+      "dependencies": [ "degrees", "radians" ]
     },
-
+    {
+      "concept": "angle",
+      "topic": [ "geometry" ],
+      "dependencies": [ "degrees", "radians"]
+    },
+    {
+      "concept": "circle",
+      "topic": [ "geometry" ],
+      "dependencies": [ "" ]
+    },
+    {
+      "concept": "circle center",
+      "topic": [ "geometry" ],
+      "dependencies": ["circle"]
+    },
+    {
+      "concept": "circle radius",
+      "topic": [ "geometry" ],
+      "dependencies": [ "distance", "circle center"]
+    },
+    {
+      "concept": "circle equation",
+      "topic": [ "geometry" ],
+      "dependencies": [ "circle" ]
+    },
+    {
+      "concept": "circle center-radius form",
+      "topic": [ "geometry" ],
+      "dependencies": [ "circle equation"]
+    },
+    {
+      "concept": "circle H value",
+      "topic": [ "geometry" ],
+      "dependencies": [ "circle equation" ]
+    },
+    {
+      "concept": "circle general form",
+      "topic": [ "geometry" ],
+      "dependencies": [ "circle equation"]
+    },
+    {
+      "concept": "circle D coefficient",
+      "topic": [ "geometry" ],
+      "dependencies": [ "circle equation" ]
+    },
+    {
+      "concept": "circle E coefficient",
+      "topic": [ "geometry" ],
+      "dependencies": [ "circle equation" ]
+    },
+    {
+      "concept": "circle F value",
+      "topic": [ "geometry" ],
+      "dependencies": [ "circle equation" ]
+    },
+    {
+      "concept": "circle diameter",
+      "topic": [ "geometry" ],
+      "dependencies": [ "radius", "circle"]
+    },
+    {
+      "concept": "circle circumference",
+      "topic": [ "geometry" ],
+      "dependencies": [ "circle radius", "circle", "circle diameter", "pi"]
+    },
+    {
+      "concept": "circle area",
+      "topic": [ "geometry" ],
+      "dependencies": [ "circle radius", "circle", "pi"]
+    }, 
+    {
+      "concept": "tangent",
+      "topic": [ "geometry" ],
+      "dependencies": []
+    }
 ]

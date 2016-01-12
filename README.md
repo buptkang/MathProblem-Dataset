@@ -1,21 +1,15 @@
 # Math Problem Dataset
 <p align="justify">
-This is a math problem dataset that covers algebra and geometry topics. This data set can be served for different research purposes: math problem natural language process, adaptive scaffolding analysis and interactive learning system development.
+This is a geometry math problem dataset that focus on the quantitaive reasoning (stand upon Descartes's mind to measure geometry). It can be used for different research fields: student modeling, natural language processing, scaffolding synthesis.
 </p>
 
-Math problems are designed to elicit math concepts. Math concept can be described as a function, a structure, a behavior or a relations with other concepts, there can be different narrative math problems to reinforce the same math concept learning.
-
-The scope of knowledge components in this data set covers:
-Arithmetic Manipulation, Algebraic Manipulation, Analytical Geometry and Coordinate Geometry. (Update required)
-
-There are **three dimensions of data**:
+**Three dimensions of data**:
 
 1. Math problems: Problems.json
 
-2. Math concepts: Topics.json + Concepts.json + ErrorConcepts.json
+2. Math concepts: Topics.json + Concepts.json
 
-3. Math instructions (scaffoldings) per problem: Instructions.json
-
+3. Math scaffolding per problem: Scaffoldings.json (preliminary structure)
 ___
 
 ***Dimension 1***: 
@@ -51,14 +45,6 @@ Format of Concepts.json:
 |   topic      |    string    |                     Topic Name                                  |
 | dependencies |    array     |                   Dependent Concepts                            |
 
-
-Format of ErrorConcepts.json:
-
-| Column Name     | Column Type  |                   Column Explanation                            |
-| ----------------|--------------|-----------------------------------------------------------------|
-|   error-concept |    string    |                     Topic Name                                  |
-|   concept       |    string    |                     Concept Name                                |
-
 ___
 
 ***Dimension 3***:
@@ -81,10 +67,3 @@ Format of Scaffolds.json:
 | dependencies | list of list  | map all potential dependency step                               |
 |concepts-used |list of strings| embed all topics employed by step                               |
 |  procedurals |list of steps  | recursively add steps into the current step                     |
-
-
-___
-
-Reference:
-
-https://pslcdatashop.web.cmu.edu/DatasetInfo?datasetId=76

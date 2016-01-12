@@ -1,6 +1,6 @@
 # Math Problem Dataset
 <p align="justify">
-This is a geometry math problem dataset that focus on the quantitaive reasoning (stand upon Descartes's mind to measure geometry). It can be used for different research fields: student modeling, natural language processing, scaffolding synthesis.
+This is a geometry math problem dataset that focus on the quantitaive reasoning (stand upon the Descartes's mind to measure geometry). It can be used for different research fields: student modeling, natural language processing, scaffolding synthesis.
 </p>
 
 **Three dimensions of data**:

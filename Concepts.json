@@ -321,7 +321,7 @@
     },
     {
       "concept": "two line parallel",
-      "components": [ "line" ],
+      "topic": "line" ,
       "dependencies": ["two lines intersect","line slope"]
     }, 
     {
@@ -331,97 +331,97 @@
     },    
     {
       "concept": "degrees",
-      "topic": [ "geometry" ],
+      "topic": "geometry",
       "dependencies": [ ]
     },
     {
       "concept": "pi",
-      "topic": [ "geometry" ],
+      "topic": "geometry",
       "dependencies": [ ]
     },
     {
       "concept": "radians",
-      "topic": [ "geometry" ],
+      "topic": "geometry",
       "dependencies":  [ "pi"]
     },
     {
       "concept": "angle size",
-      "topic": [ "geometry" ],
+      "topic": "geometry",
       "dependencies": [ "degrees", "radians" ]
     },
     {
       "concept": "angle",
-      "topic": [ "geometry" ],
+      "topic": "geometry",
       "dependencies": [ "degrees", "radians"]
     },
     {
       "concept": "circle",
-      "topic": [ "geometry" ],
+      "topic": "geometry",
       "dependencies": [ "" ]
     },
     {
       "concept": "circle center",
-      "topic": [ "geometry" ],
+      "topic": "geometry",
       "dependencies": ["circle"]
     },
     {
       "concept": "circle radius",
-      "topic": [ "geometry" ],
+      "topic": "geometry",
       "dependencies": [ "distance", "circle center"]
     },
     {
       "concept": "circle equation",
-      "topic": [ "geometry" ],
+      "topic": "geometry",
       "dependencies": [ "circle" ]
     },
     {
       "concept": "circle center-radius form",
-      "topic": [ "geometry" ],
+      "topic": "geometry",
       "dependencies": [ "circle equation"]
     },
     {
       "concept": "circle H value",
-      "topic": [ "geometry" ],
+      "topic": "geometry",
       "dependencies": [ "circle equation" ]
     },
     {
       "concept": "circle general form",
-      "topic": [ "geometry" ],
+      "topic": "geometry",
       "dependencies": [ "circle equation"]
     },
     {
       "concept": "circle D coefficient",
-      "topic": [ "geometry" ],
+      "topic": "geometry",
       "dependencies": [ "circle equation" ]
     },
     {
       "concept": "circle E coefficient",
-      "topic": [ "geometry" ],
+      "topic": "geometry",
       "dependencies": [ "circle equation" ]
     },
     {
       "concept": "circle F value",
-      "topic": [ "geometry" ],
+      "topic": "geometry",
       "dependencies": [ "circle equation" ]
     },
     {
       "concept": "circle diameter",
-      "topic": [ "geometry" ],
+      "topic": "geometry",
       "dependencies": [ "radius", "circle"]
     },
     {
       "concept": "circle circumference",
-      "topic": [ "geometry" ],
+      "topic": "geometry",
       "dependencies": [ "circle radius", "circle", "circle diameter", "pi"]
     },
     {
       "concept": "circle area",
-      "topic": [ "geometry" ],
+      "topic": "geometry",
       "dependencies": [ "circle radius", "circle", "pi"]
     }, 
     {
       "concept": "tangent",
-      "topic": [ "geometry" ],
+      "topic": "geometry",
       "dependencies": []
     }
 ]

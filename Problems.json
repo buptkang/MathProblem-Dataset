@@ -17,7 +17,7 @@
   },
   {
     "id": "0003",
-    "problem": "A line passes through two points A(2,0), B(0,3) respectively. 1) What is the slope of this line?  2) What is the standard form of this line?",
+    "problem": "A line passes through two points A(2,0), B(0,3) respectively. What is the slope of this line?  What is the standard form of this line?",
     "semantic": ["A(2,0)", "B(0,3)", "S=?", "Line(s)=?"],
     "concept": ["line slope","line","line standard form","point"],
     "topic": ["geometry"],
@@ -233,7 +233,7 @@
   },
   {
     "id": "0030",
-    "problem":  "Assume a circle C's central point is CP(-1,-1), and its radius is 3. There is a line L of which the standard form is x-y-1=0. 1) What is the relation between C and L? 2) If they intersect at two points, what are the value of two intersect points coordinates? 3) Find the distance between the center of circle CP and line L?",
+    "problem":  "Assume a circle C's central point is CP(-1,-1), and its radius is 3. There is a line L of which the standard form is x-y-1=0. What is the relation between C and L? If they intersect at two points, what are the value of two intersect points coordinates? Find the distance between the center of circle CP and line L?",
     "semantic": [""],
     "concept":  [""],
     "topic":    ["geometry"],
@@ -257,7 +257,7 @@
   },
   {
     "id": "0033",
-    "problem":  "Given the system of equations: x^2 + y^2 = 25 and y = 3x, a. Sketch a graph of the system to determine the number of solutions b. solve the system algebraically to find the solutions.",
+    "problem":  "Given the system of equations: x^2 + y^2 = 25 and y = 3x, Sketch a graph of the system to determine the number of solutions. Solve the system algebraically to find the solutions.",
     "semantic": [""],
     "concept":  [""],
     "topic":    ["geometry"],

@@ -1,7 +1,7 @@
 [
   {
     "id": "0001",
-    "problem": "Find the distance between A(2,0) and B(5,4)?",
+    "problem": "Find the distance between A(2,0) and B(5,4) ?",
     "semantic": ["A(2,0)", "B(5,4)", "d=?"],
     "concept" : ["distance", "point"],
     "topic":    ["geometry"],
@@ -41,7 +41,7 @@
   },
   {
     "id": "0006",
-    "problem": "If the equation of a line p in the coordinate plane is y=3x+2, what is the general form of line q which is a reflection of line p in the x-axis?",
+    "problem": "If the equation of a line p in the coordinate plane is y=3*x+2 , what is the general form of line q which is a reflection of line p in the x-axis ?",
     "semantic": ["2y+2x-y+2x+4=0", "Graph=?", "S=?"],
     "concept": ["line","line reflection","x-axis","line equation"],
     "topic": ["geometry"],
@@ -105,7 +105,7 @@
   },
   {
     "id": "0014",
-    "problem":   "What is the center of the circle described by the equation ‘(X-2)^2 + (Y-3)^2 = 4’? What is the radius?",
+    "problem":   "What is the center of the circle described by the equation (X-2)^2+(Y-3)^2=4 ? What is the radius ?",
     "semantic":  ["(X-2)^2+(Y-3)^2=4","center=?","r=?"],
     "concept":   ["circle", "center", "radius", "center-radius form"],
     "topic":     ["geometry"],

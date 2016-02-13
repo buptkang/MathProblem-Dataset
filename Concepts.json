@@ -12,14 +12,13 @@
     {
       "concept": "positive decimal",
       "topic": "number",
-      "dependencies": []
+      "dependencies": ["positive integer"]
     },
     {
       "concept": "negative decimal",
       "topic": "number",
       "dependencies": ["positive decimal"]
     },
-
     {
       "concept": "arithmetic addition",
       "topic": "arithmetic",

@@ -1,7 +1,7 @@
 [
   {
     "id": "0001",
-    "problem": "Find the distance between A(2,0) and B(5,4) ?",
+    "problem": "Find the distance between points A(2,0) and B(5,4) ?",
     "semantic": ["A(2,0)", "B(5,4)", "d=?"],
     "concept" : ["distance", "point"],
     "topic":    ["geometry"],
@@ -9,7 +9,7 @@
   },
   {
     "id": "0002",
-    "problem": "There exists two points A(3,4) and B(7,v), the distance between A and B is 5. What is the value of v?",
+    "problem": "There exists two points A(3,4) and B(7,v), the distance between A and B is 5. What is the value of v ?",
     "semantic": ["A(3,4)", "B(7,v)", "d=5", "v=?"],
     "concept": ["distance","point"],
     "topic": ["geometry"],
@@ -17,7 +17,7 @@
   },
   {
     "id": "0003",
-    "problem": "A line passes through two points A(2,0), B(0,3) respectively. What is the slope of this line?  What is the standard form of this line?",
+    "problem": "A line passes through two points A(2,0) , B(0,3) respectively. What is the slope of this line?  What is the standard form of this line ?",
     "semantic": ["A(2,0)", "B(0,3)", "S=?", "Line(s)=?"],
     "concept": ["line slope","line","line standard form","point"],
     "topic": ["geometry"],
@@ -25,7 +25,7 @@
   },
   {
     "id": "0004",
-    "problem": "There is a line, the slope of it is 3, the y-intercept of it is 2. What is the slope intercept form of this line? What is the general form of this line?",
+    "problem": "There is a line, the slope of it is 3, the y-intercept of it is 2. What is the slope intercept form of this line ? What is the general form of this line ?",
     "semantic": ["m=3", "k=2", "Line(si)=?", "Line(g)=?"],
     "concept": ["line slope","line y-intercept","line","line slope intercept form","line general form"],
     "topic": ["geometry"],
@@ -49,7 +49,7 @@
   },
   {
     "id": "0007",
-    "problem": "Line B crosses point A(2,3) and B(3,8), what is the slope of line B?",
+    "problem": "Line A crosses points (2,3) and (3,8), what is the slope of line A?",
     "semantic": ["A(2,3)", "B(3,8)", "m=?"],
     "concept": ["line","point","line slope"],
     "topic": ["geometry"],
@@ -65,11 +65,11 @@
   },
   {
     "id": "0009",
-    "problem": " Solve this linear system using your method: 6x-5y=8 and -12x+2y=0?",
-    "semantic": ["6x-5y=8", "-12x+2y=0", "solve=?"],
-    "concept": ["solving two algebraic linear system"],
-    "topic": ["algebra"],
-    "solution": ["(-1/3,-2)"]
+    "problem": "Write an equation of the line that passes through the point (4,4) and is perpendicular to the line whose equation is 2x+y=7 .",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
   },
   {
     "id": "0010",
@@ -81,11 +81,11 @@
   },
   {
     "id": "0011",
-    "problem": "Simplify the expression 1+2-3?",
-    "semantic": ["1+2-3=?"],
-    "concept": ["arithmetic subtraction"],
-    "topic": ["arithmetic"],
-    "solution": ["0"]
+    "problem": "Find the point on the y-axis that is equidistant from (5,1) and (-3,-1) .",
+    "semantic": [ "" ],
+    "concept": [ "" ],
+    "topic": [ "geometry" ],
+    "solution": [ "TODO" ]
   },
   {
     "id": "0012",
@@ -97,7 +97,7 @@
   },
   {
     "id": "0013",
-    "problem": "What is the Center-Radius form of the equation of a circle with radius 8 and a center at (-4,7)?",
+    "problem": "What is the Center-Radius form of the equation of a circle with radius 8 and a center at (-4,7) ?",
     "semantic": ["r=8","center=(-4,7)","Circle(cr)=?"],
     "concept": ["circle","center-radius form","center","radius","algebraic expression simplification"],
     "topic": ["geometry"],
@@ -113,7 +113,7 @@
   },
   {
     "id": "0015",
-    "problem":  "A circle centered at (3,4) with a radius 5 passes through the point (-2,V). What is V?",
+    "problem":  "A circle centered at (3,4) with a radius 5 passes through the point (-2,v). What is v ?",
     "semantic": ["r=5","center=(3,4)","Circle((-2,V))","V=?"],
     "concept":  ["center", "radius", "center-radius form", "x-coordinate"],
     "topic":    ["geometry"],
@@ -161,7 +161,7 @@
   },
   {
     "id": "0021",
-    "problem":  "In the xy-plane, line l contains the point(0,0), and the slope of line l is 1. Line m contains the point (0,10), and l is perpendicular to m. If l and m intersect at the point (x,y), what is the value of y?",
+    "problem":  "In the xy-plane, line l contains the point (0,0), and the slope of line l is 1. Line m contains the point (0,10), and l is perpendicular to m. If l and m intersect at the point (x,y), what is the value of y ?",
     "semantic": ["Line:l((0,0))","m(l)=1","Line:m((0,10))","perpendicular(l,m)", "intersect(l,m)=(x,y)", "y=?"],
     "concept":  ["line", "y-axis", "two line intersect"],
     "topic":    ["geometry"],
@@ -1472,20 +1472,20 @@
     "topic": [ "geometry" ],
     "solution": [ "TODO" ]
   },
-  {
+   {
     "id": "0185",
-    "problem": "Find the point on the y-axis that is equidistant from (5,1) and (-3,-1).",
-    "semantic": [ "" ],
-    "concept": [ "" ],
-    "topic": [ "geometry" ],
-    "solution": [ "TODO" ]
+    "problem": "Simplify the expression 1+2-3?",
+    "semantic": ["1+2-3=?"],
+    "concept": ["arithmetic subtraction"],
+    "topic": ["arithmetic"],
+    "solution": ["0"]
   },
-  {
+ {
     "id": "0186",
-    "problem": "Write an equation of the line that passes through the point (4,4) and is perpendicular to the line whose equation is 2x + y = 7.",
-    "semantic": [ "" ],
-    "concept": [ "" ],
-    "topic": [ "geometry" ],
-    "solution": [ "TODO" ]
+    "problem": "Solve this linear system using your method: 6x-5y=8 and -12x+2y=0?",
+    "semantic": ["6x-5y=8", "-12x+2y=0", "solve=?"],
+    "concept": ["solving two algebraic linear system"],
+    "topic": ["algebra"],
+    "solution": ["(-1/3,-2)"]
   }
 ]
